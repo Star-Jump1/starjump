@@ -1,0 +1,34 @@
+# One feed address per line. Lines starting with # are ignored.
+# The evening Telegram message lists any feed that failed; delete or fix those here.
+
+# BBC
+https://feeds.bbci.co.uk/news/uk/rss.xml
+https://feeds.bbci.co.uk/news/business/rss.xml
+https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+https://feeds.bbci.co.uk/news/technology/rss.xml
+https://feeds.bbci.co.uk/news/health/rss.xml
+
+# Sky News
+https://feeds.skynews.com/feeds/rss/uk.xml
+https://feeds.skynews.com/feeds/rss/business.xml
+
+# Guardian
+https://www.theguardian.com/uk-news/rss
+https://www.theguardian.com/uk/business/rss
+https://www.theguardian.com/science/rss
+
+# Business and free-market outlets
+https://www.cityam.com/feed/
+https://capx.co/feed/
+
+# Others
+https://inews.co.uk/feed
+https://www.independent.co.uk/news/uk/rss
+https://www.positive.news/feed/
+
+# Government announcements (high volume)
+https://www.gov.uk/search/news-and-communications.atom
+
+# Paywalled, kept for coverage; the rubric tells Claude to prefer free sources
+https://www.telegraph.co.uk/news/rss.xml
+https://www.spectator.co.uk/feed

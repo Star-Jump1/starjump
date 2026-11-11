@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starjump</title>
+<meta name="description" content="Five pieces of good news about Britain, every morning at 8 a.m.">
+<style>
+  :root {
+    --paper: #ffffff;
+    --ink: #000000;
+    --quiet: #595959;
+    --link: #1a44a8;
+    --visited: #5b3e96;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0 auto;
+    max-width: 38rem;
+    padding: 2.5rem 1.25rem 4rem;
+    color: var(--ink);
+    background: var(--paper);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0; }
+  .tagline { margin: 0.25rem 0 1.25rem; }
+  .note { color: var(--quiet); font-size: 0.95rem; margin: 0.75rem 0 0; }
+  a { color: var(--link); text-underline-offset: 0.15em; }
+  a:visited { color: var(--visited); }
+  a:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+  .signup { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .signup input {
+    flex: 1 1 14rem;
+    font: inherit;
+    padding: 0.45rem 0.6rem;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .signup button {
+    font: inherit;
+    padding: 0.45rem 1rem;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    cursor: pointer;
+  }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+
+  main { margin-top: 2.5rem; }
+  .day { margin-top: 2.25rem; }
+  .day h2 { font-size: 1rem; margin: 0 0 0.5rem; }
+  .day h2 a { color: var(--ink); text-decoration: none; }
+  .day h2 a:hover { text-decoration: underline; }
+  .day ul { list-style: none; margin: 0; padding: 0; }
+  .day li { margin: 0 0 0.6rem; }
+  .src { color: var(--quiet); font-size: 0.85rem; white-space: nowrap; }
+  .empty { color: var(--quiet); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Starjump</h1>
+  <p class="tagline">Five pieces of good news about Britain, every morning at 8 a.m.</p>
+  <form class="signup" action="https://app.kit.com/forms/FORM_ID/subscriptions" method="post">
+    <label for="email" class="visually-hidden">Email address</label>
+    <input id="email" name="email_address" type="email" placeholder="Email address" autocomplete="email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="note">Every issue is on this page, newest first. Search it with Ctrl+F (Cmd+F on a Mac).</p>
+</header>
+<main>
+<!-- NEW DAYS GO BELOW THIS LINE -->
+<p class="empty">The first issue will appear here.</p>
+</main>
+</body>
+</html>
