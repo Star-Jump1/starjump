@@ -1,0 +1,62 @@
+{
+  "created": 1794425272,
+  "created_iso": "2026-11-11T19:27:52.337980+00:00",
+  "items": [
+    {
+      "headline": "UK's largest solar farm to be built after councils lose High Court bid",
+      "original": "Reform and Tory councils lose High Court bid to halt construction of UK's largest solar farm",
+      "url": "https://www.independent.co.uk/news/uk/home-news/reform-conservatives-springwell-solar-farm-lincolnshire-b3083318.html",
+      "source": "Independent",
+      "paywall": false,
+      "why": "Construction cleared in court; 1,280 hectares powering 180,000 homes"
+    },
+    {
+      "headline": "Bristol and London chip firm Fractile secures backing for next generation AI hardware",
+      "original": "Sovereign AI and British Business Bank invest in British firm developing the next generation of AI hardware",
+      "url": "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+      "source": "GOV.UK",
+      "paywall": false,
+      "why": "Money committed to a British AI hardware firm"
+    },
+    {
+      "headline": "Pubs to save up to £870 a year as double packaging charges end",
+      "original": "Government steps in to reduce packaging costs for British businesses and pubs",
+      "url": "https://www.gov.uk/government/news/government-steps-in-to-reduce-packaging-costs-for-british-businessesand-pubs",
+      "source": "GOV.UK",
+      "paywall": false,
+      "why": "Red tape and costs cut for pubs, with a concrete saving"
+    },
+    {
+      "headline": "MHRA approves new immunotherapy for advanced anal cancer",
+      "original": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced anal cancer",
+      "url": "https://www.gov.uk/government/news/mhra-approves-retifanlimab-zynyz-for-the-treatment-of-advanced-anal-cancer",
+      "source": "GOV.UK",
+      "paywall": false,
+      "why": "Approved treatment now available for a cancer with few options"
+    },
+    {
+      "headline": "3,400 rare wildflowers moved to safety from eroding Scottish coast",
+      "original": "Thousands of rare wildflowers rescued from eroding Scottish coast",
+      "url": "https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "Concrete conservation rescue of a species that has lost half its UK population"
+    },
+    {
+      "headline": "Credit union rules relaxed so tens of thousands more can join",
+      "original": "Affordable finance access for tens of thousands more people",
+      "url": "https://www.gov.uk/government/news/affordable-finance-access-for-tens-of-thousands-more-people",
+      "source": "GOV.UK",
+      "paywall": false,
+      "why": "Rules loosened to widen access to affordable finance"
+    },
+    {
+      "headline": "New off-grid woodland centre takes shape at East Dartmoor nature reserve",
+      "original": "New woodland centre takes shape at East Dartmoor and Heaths National Nature Reserve",
+      "url": "https://www.gov.uk/government/news/new-woodland-centre-takes-shape-at-east-dartmoor-and-heaths-national-nature-reserve",
+      "source": "GOV.UK",
+      "paywall": false,
+      "why": "Building work under way at a named site"
+    }
+  ]
+}
