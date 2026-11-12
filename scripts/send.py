@@ -136,7 +136,7 @@ def main():
         process_messages(shortlist)
 
     when = send_time()
-    issue = load_issue(when.date())
+    issue = load_issue(when.date()) or load_issue(when.date() + timedelta(days=1))
     if issue is None:
         tg_send("No email was prepared for today, so nothing was sent.")
         return
