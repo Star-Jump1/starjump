@@ -1,62 +1,86 @@
 {
-  "created": 1794425272,
-  "created_iso": "2026-11-11T19:27:52.337980+00:00",
+  "created": 1794497751,
+  "created_iso": "2026-11-12T15:35:51.949239+00:00",
   "items": [
     {
-      "headline": "UK's largest solar farm to be built after councils lose High Court bid",
+      "headline": "London naval drone maker UForce hits £4.5bn value after £500m raise",
+      "original": "UK drone maker founded by Ukrainians hits £4.5bn value after raising £500m",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-drone-maker-ukraine-value-uforce",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "British firm raised over £500m in private and public investment."
+    },
+    {
+      "headline": "UK economy grows 0.7%, its fastest pace in over two years",
+      "original": "UK economy grows at fastest rate for more than two years",
+      "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "paywall": false,
+      "why": "Official figures show the fastest growth in two years."
+    },
+    {
+      "headline": "Burberry returns to profit as coat and handbag sales soar",
+      "original": "Burberry returns to profit as sales soar, from £85 socks to £9,000 coats",
+      "url": "https://www.theguardian.com/business/2026/nov/12/burberry-profit-sales-socks-bags-china-us",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "British firm swung from a £48m loss to a £19m profit."
+    },
+    {
+      "headline": "UK's largest solar farm, powering 180,000 homes, clears High Court challenge",
       "original": "Reform and Tory councils lose High Court bid to halt construction of UK's largest solar farm",
       "url": "https://www.independent.co.uk/news/uk/home-news/reform-conservatives-springwell-solar-farm-lincolnshire-b3083318.html",
       "source": "Independent",
       "paywall": false,
-      "why": "Construction cleared in court; 1,280 hectares powering 180,000 homes"
+      "why": "Large energy project can proceed after councils lost their legal bid."
     },
     {
-      "headline": "Bristol and London chip firm Fractile secures backing for next generation AI hardware",
-      "original": "Sovereign AI and British Business Bank invest in British firm developing the next generation of AI hardware",
-      "url": "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+      "headline": "Royal Navy signs multimillion pound AI deal with British firm Arondite",
+      "original": "UK Commandos to get AI-enabled edge from British scale-up Arondite, as company expands to NATO's northern flank",
+      "url": "https://www.gov.uk/government/news/uk-commandos-to-get-ai-enabled-edge-from-british-scale-up-arondite-as-company-expands-to-natos-northern-flank",
       "source": "GOV.UK",
       "paywall": false,
-      "why": "Money committed to a British AI hardware firm"
+      "why": "British scale-up won a signed contract and is expanding."
     },
     {
-      "headline": "Pubs to save up to £870 a year as double packaging charges end",
-      "original": "Government steps in to reduce packaging costs for British businesses and pubs",
-      "url": "https://www.gov.uk/government/news/government-steps-in-to-reduce-packaging-costs-for-british-businessesand-pubs",
+      "headline": "Royal Navy to buy three mine hunting motherships in UK export deal",
+      "original": "UK growth and security boosted as Royal Navy agrees export deal for new mine-hunting motherships",
+      "url": "https://www.gov.uk/government/news/uk-growth-and-security-boosted-as-royal-navy-agrees-export-deal-for-new-mine-hunting-motherships",
       "source": "GOV.UK",
       "paywall": false,
-      "why": "Red tape and costs cut for pubs, with a concrete saving"
+      "why": "Commitment made for three ships, with a UK growth and export boost."
     },
     {
-      "headline": "MHRA approves new immunotherapy for advanced anal cancer",
-      "original": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced anal cancer",
-      "url": "https://www.gov.uk/government/news/mhra-approves-retifanlimab-zynyz-for-the-treatment-of-advanced-anal-cancer",
+      "headline": "Nottingham wrist device helps stop Tourette tics, users say",
+      "original": "Tourette syndrome: The life-changing device helping to stop tics",
+      "url": "https://www.bbc.co.uk/news/videos/c94gnv5e31gno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "paywall": false,
+      "why": "British research team's device is already helping patients."
+    },
+    {
+      "headline": "Rolls-Royce speeds up share buyback as engine demand stays strong",
+      "original": "Rolls-Royce shares jump after FTSE 100 giant accelerates buyback",
+      "url": "https://www.cityam.com/rolls-royce-shares-jump-after-ftse-100-giant-accelerates-buyback/",
+      "source": "City AM",
+      "paywall": false,
+      "why": "British engineering giant is returning more cash on strong demand."
+    },
+    {
+      "headline": "£11m Somerset pumping station upgrade boosts flood protection",
+      "original": "£11m pumping station upgrade boosts Somerset flood resilience",
+      "url": "https://www.gov.uk/government/news/11m-pumping-station-upgrade-boosts-somerset-flood-resilience",
       "source": "GOV.UK",
       "paywall": false,
-      "why": "Approved treatment now available for a cancer with few options"
+      "why": "Work under way on six pumping stations, £11m committed."
     },
     {
-      "headline": "3,400 rare wildflowers moved to safety from eroding Scottish coast",
-      "original": "Thousands of rare wildflowers rescued from eroding Scottish coast",
-      "url": "https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland",
-      "source": "Guardian",
+      "headline": "Woman donates kidney to save her husband and a stranger",
+      "original": "I saved a stranger's life and my husband's at the same time",
+      "url": "https://www.bbc.co.uk/news/articles/c8qlq33llr6no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
       "paywall": false,
-      "why": "Concrete conservation rescue of a species that has lost half its UK population"
-    },
-    {
-      "headline": "Credit union rules relaxed so tens of thousands more can join",
-      "original": "Affordable finance access for tens of thousands more people",
-      "url": "https://www.gov.uk/government/news/affordable-finance-access-for-tens-of-thousands-more-people",
-      "source": "GOV.UK",
-      "paywall": false,
-      "why": "Rules loosened to widen access to affordable finance"
-    },
-    {
-      "headline": "New off-grid woodland centre takes shape at East Dartmoor nature reserve",
-      "original": "New woodland centre takes shape at East Dartmoor and Heaths National Nature Reserve",
-      "url": "https://www.gov.uk/government/news/new-woodland-centre-takes-shape-at-east-dartmoor-and-heaths-national-nature-reserve",
-      "source": "GOV.UK",
-      "paywall": false,
-      "why": "Building work under way at a named site"
+      "why": "Human-interest story of one donation saving two lives."
     }
   ]
 }
