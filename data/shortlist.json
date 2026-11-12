@@ -1,22 +1,46 @@
 {
-  "created": 1794497751,
-  "created_iso": "2026-11-12T15:35:51.949239+00:00",
+  "created": 1794511443,
+  "created_iso": "2026-11-12T19:24:03.663814+00:00",
   "items": [
     {
-      "headline": "London naval drone maker UForce hits £4.5bn value after £500m raise",
+      "headline": "European Euclid mission maps 900 million galaxies in first major data release",
+      "original": "European survey reveals 900m galaxies – and possibly secrets of ‘dark universe’",
+      "url": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "Concrete science result: largest 3D universe map, with data released."
+    },
+    {
+      "headline": "London drone maker founded by Ukrainians hits £4.5bn value after £500m raise",
       "original": "UK drone maker founded by Ukrainians hits £4.5bn value after raising £500m",
       "url": "https://www.theguardian.com/business/2026/nov/12/uk-drone-maker-ukraine-value-uforce",
       "source": "Guardian",
       "paywall": false,
-      "why": "British firm raised over £500m in private and public investment."
+      "why": "Completed British fundraising with named firm, figures and new investment."
     },
     {
-      "headline": "UK economy grows 0.7%, its fastest pace in over two years",
-      "original": "UK economy grows at fastest rate for more than two years",
-      "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "headline": "UK economy grows 0.7% in third quarter, fastest in over two years",
+      "original": "AI helps UK economy grow at fastest pace for more than two years",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "Official growth figure, the strongest in two years."
+    },
+    {
+      "headline": "Toxic forever chemicals fall sharply in England's rivers after tighter restrictions",
+      "original": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+      "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Official figures show the fastest growth in two years."
+      "why": "Measured decline in pollutants following restrictions on use."
+    },
+    {
+      "headline": "Harry Kane becomes England's most capped men's footballer",
+      "original": "Harry Kane becomes England's most-capped men's footballer",
+      "url": "https://news.sky.com/story/harry-kane-becomes-englands-most-capped-mens-footballer-13611667",
+      "source": "Sky News",
+      "paywall": false,
+      "why": "British sporting record achieved."
     },
     {
       "headline": "Burberry returns to profit as coat and handbag sales soar",
@@ -24,63 +48,39 @@
       "url": "https://www.theguardian.com/business/2026/nov/12/burberry-profit-sales-socks-bags-china-us",
       "source": "Guardian",
       "paywall": false,
-      "why": "British firm swung from a £48m loss to a £19m profit."
+      "why": "British firm's turnaround to profit, with sales up in China and US."
     },
     {
-      "headline": "UK's largest solar farm, powering 180,000 homes, clears High Court challenge",
-      "original": "Reform and Tory councils lose High Court bid to halt construction of UK's largest solar farm",
-      "url": "https://www.independent.co.uk/news/uk/home-news/reform-conservatives-springwell-solar-farm-lincolnshire-b3083318.html",
+      "headline": "Mortgage arrears fall 10% in a year across the UK",
+      "original": "Mortgage arrears and repossessions fall across UK despite rising household costs",
+      "url": "https://www.independent.co.uk/news/uk/home-news/mortgages-home-repossessions-buy-to-let-b3084066.html",
       "source": "Independent",
       "paywall": false,
-      "why": "Large energy project can proceed after councils lost their legal bid."
+      "why": "Numbers show arrears and repossessions falling."
     },
     {
-      "headline": "Royal Navy signs multimillion pound AI deal with British firm Arondite",
-      "original": "UK Commandos to get AI-enabled edge from British scale-up Arondite, as company expands to NATO's northern flank",
-      "url": "https://www.gov.uk/government/news/uk-commandos-to-get-ai-enabled-edge-from-british-scale-up-arondite-as-company-expands-to-natos-northern-flank",
-      "source": "GOV.UK",
+      "headline": "In Sweden, a wooden datacentre runs entirely on renewable power",
+      "original": "Datacentres are deeply unpopular. Has Sweden made one we can all love?",
+      "url": "https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun",
+      "source": "Guardian",
       "paywall": false,
-      "why": "British scale-up won a signed contract and is expanding."
+      "why": "Built and operating facility using fully renewable power."
     },
     {
-      "headline": "Royal Navy to buy three mine hunting motherships in UK export deal",
-      "original": "UK growth and security boosted as Royal Navy agrees export deal for new mine-hunting motherships",
-      "url": "https://www.gov.uk/government/news/uk-growth-and-security-boosted-as-royal-navy-agrees-export-deal-for-new-mine-hunting-motherships",
-      "source": "GOV.UK",
-      "paywall": false,
-      "why": "Commitment made for three ships, with a UK growth and export boost."
-    },
-    {
-      "headline": "Nottingham wrist device helps stop Tourette tics, users say",
-      "original": "Tourette syndrome: The life-changing device helping to stop tics",
-      "url": "https://www.bbc.co.uk/news/videos/c94gnv5e31gno?at_medium=RSS&at_campaign=rss",
+      "headline": "Device from Nottingham researchers helps calm Tourette's symptoms",
+      "original": "Trying Tourette's device was the best day of my life",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g3e5q4zxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "British research team's device is already helping patients."
+      "why": "British-developed medical device already helping patients."
     },
     {
-      "headline": "Rolls-Royce speeds up share buyback as engine demand stays strong",
-      "original": "Rolls-Royce shares jump after FTSE 100 giant accelerates buyback",
-      "url": "https://www.cityam.com/rolls-royce-shares-jump-after-ftse-100-giant-accelerates-buyback/",
-      "source": "City AM",
+      "headline": "Bronze leg found in Scottish bog rewrites story of Roman occupation",
+      "original": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
+      "source": "Guardian",
       "paywall": false,
-      "why": "British engineering giant is returning more cash on strong demand."
-    },
-    {
-      "headline": "£11m Somerset pumping station upgrade boosts flood protection",
-      "original": "£11m pumping station upgrade boosts Somerset flood resilience",
-      "url": "https://www.gov.uk/government/news/11m-pumping-station-upgrade-boosts-somerset-flood-resilience",
-      "source": "GOV.UK",
-      "paywall": false,
-      "why": "Work under way on six pumping stations, £11m committed."
-    },
-    {
-      "headline": "Woman donates kidney to save her husband and a stranger",
-      "original": "I saved a stranger's life and my husband's at the same time",
-      "url": "https://www.bbc.co.uk/news/articles/c8qlq33llr6no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "paywall": false,
-      "why": "Human-interest story of one donation saving two lives."
+      "why": "Real archaeological discovery now on show in Edinburgh."
     }
   ]
 }
