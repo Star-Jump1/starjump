@@ -5,7 +5,7 @@ Preview:
 Intro: 
 
 1. [UK economy grows 0.7%, its fastest pace in over two years](https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss) | BBC
-2. [Nottingham wrist device helps stop Tourette tics, users say](https://www.bbc.co.uk/news/videos/c94gnv5e31gno?at_medium=RSS&at_campaign=rss) | BBC
+2. [New wrist device helps stop Tourette tick](https://www.bbc.co.uk/news/videos/c94gnv5e31gno?at_medium=RSS&at_campaign=rss) | BBC
 3. [Rolls-Royce speeds up share buyback as engine demand stays strong](https://www.cityam.com/rolls-royce-shares-jump-after-ftse-100-giant-accelerates-buyback/) | City AM
 
 <!--
