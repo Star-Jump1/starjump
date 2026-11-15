@@ -32,9 +32,7 @@ https://www.chroniclelive.co.uk/news/?service=rss
 https://www.liverpoolecho.co.uk/news/?service=rss
 https://www.prolificnorth.co.uk/feed
 https://www.uktech.news/feed
-https://www.businesscloud.co.uk/feed/
 https://sifted.eu/feed
-https://tech.eu/feed/
 https://www.theregister.com/headlines.atom
 
 # ---------- Building, transport and energy ----------
@@ -50,7 +48,6 @@ https://cleantechnica.com/feed/
 https://electrek.co/feed/
 
 # ---------- Science and medicine ----------
-https://www.newscientist.com/feed/home/
 https://www.nature.com/nature.rss
 https://www.science.org/rss/news_current.xml
 https://www.sciencedaily.com/rss/top/science.xml
