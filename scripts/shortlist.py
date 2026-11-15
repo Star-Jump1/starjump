@@ -21,6 +21,7 @@ import requests
 
 from common import (
     CONFIG,
+    DATA,
     HISTORY_FILE,
     SHORTLIST_FILE,
     bare_url,
@@ -164,7 +165,7 @@ def first_pass(client, stories, rubric, notes):
     if len(stories) <= SKIM_ABOVE:
         return stories
     model = setting("FILTER_MODEL", "claude-haiku-5-5")
-    kept = []
+    kept, failures = [], 0
     for start in range(0, len(stories), CHUNK_SIZE):
         chunk = stories[start : start + CHUNK_SIZE]
         listing = "\n".join(f"[{i}] {s['title']} | {s['source']} | {s['summary'][:150]}" for i, s in enumerate(chunk))
@@ -178,7 +179,11 @@ def first_pass(client, stories, rubric, notes):
             ids = json_from(reply_text(message), "keep").get("keep", [])
             kept += [chunk[i] for i in ids[:KEEP_PER_CHUNK] if isinstance(i, int) and 0 <= i < len(chunk)]
         except Exception as error:
-            notes.append(f"First pass skipped one batch ({error.__class__.__name__})")
+            failures += 1
+            notes.append(f"First pass failed on one batch: {str(error)[:200]}")
+    if not kept and failures:
+        notes.append(f"First pass failed, so the newest {SKIM_ABOVE} stories went straight to the final pick.")
+        return stories[:SKIM_ABOVE]
     return kept
 
 
@@ -295,6 +300,8 @@ def telegram_text(shortlist, stats, failed, notes):
 def main():
     # Clear old messages so the evening draft job only sees tonight's reply.
     tg_clear(tg_updates())
+    # A new shortlist starts a fresh email: drop any earlier one, so it cannot be sent by mistake.
+    (DATA / "issue.md").unlink(missing_ok=True)
 
     rubric = (CONFIG / "rubric.md").read_text(encoding="utf-8")
     seen = {item["url"] for item in load_json(HISTORY_FILE, [])}
@@ -314,7 +321,8 @@ def main():
         print("  ", line)
 
     if not candidates:
-        tg_send("Nothing came through tonight, so there is no shortlist.\n\n" + stats)
+        details = "\n\n".join(esc(line) for line in [stats] + notes + failed[:10])
+        tg_send("Nothing came through tonight, so there is no shortlist.\n\n" + details)
         return
 
     shortlist = final_pick(client, candidates, rubric)

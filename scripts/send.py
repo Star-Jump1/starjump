@@ -26,7 +26,7 @@ from common import (
     setting,
     tg_send,
 )
-from issue import load_issue, preview_of, process_messages, subject_of
+from issue import load_issue, preview_of, process_messages, save_issue, subject_of
 
 LONDON = ZoneInfo("Europe/London")
 MARKER = "<!-- NEW DAYS GO BELOW THIS LINE -->"
@@ -136,12 +136,16 @@ def main():
         process_messages(shortlist)
 
     when = send_time()
+    # A test run in the afternoon finds the issue prepared for tomorrow and sends it now.
     issue = load_issue(when.date()) or load_issue(when.date() + timedelta(days=1))
     if issue is None:
         tg_send("No email was prepared for today, so nothing was sent.")
         return
     if issue["status"] == "skip":
         tg_send("Today was skipped. Nothing was sent.")
+        return
+    if issue["status"] == "sent":
+        tg_send("This email has already been sent, so it was not sent again.")
         return
     if not issue["items"]:
         tg_send("Today's email has no stories, so nothing was sent.")
@@ -151,6 +155,8 @@ def main():
     if mode != "draft":
         update_site(issue["items"], when.date())
         update_history(issue["items"], when.date())
+        issue["status"] = "sent"
+        save_issue(issue)
 
     status = {
         "draft": "saved as a draft in Kit. Nothing will send.",

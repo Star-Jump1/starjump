@@ -128,6 +128,8 @@ def apply_message(text, issue, shortlist, day):
     """Apply one Telegram message. Returns (issue, lines not understood)."""
     stripped = text.strip()
     word = stripped.lower()
+    if issue and issue["status"] == "sent":
+        return issue, [f"{stripped[:60]} (this email has already been sent)"]
     if word in {"skip", "none", "no"}:
         issue = issue or new_issue([], day)
         issue["status"] = "skip"
