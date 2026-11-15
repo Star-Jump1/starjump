@@ -19,6 +19,7 @@ import anthropic
 import feedparser
 import requests
 
+from issue import NOTES_FILE, TASTE_FILE, auto_pick_count, issue_day
 from common import (
     CONFIG,
     DATA,
@@ -160,6 +161,40 @@ def gather(seen):
     return stories, failed, working
 
 
+def taste_text():
+    """Your recent picks and passes, and your Telegram notes, added to the rubric so Claude learns your taste."""
+    taste = load_json(TASTE_FILE, [])[-14:]
+    picked = [h for t in reversed(taste) for h in t["picked"]][:40]
+    passed = [h for t in reversed(taste) for h in t["passed"]][:40]
+    parts = []
+    if picked or passed:
+        parts.append(
+            "## What the editor actually chose recently\n"
+            "Learn the editor's taste from these. Favour stories like the picked ones; be wary of stories like the passed-over ones."
+        )
+        if picked:
+            parts.append("Picked:\n" + "\n".join(f"- {h}" for h in picked))
+        if passed:
+            parts.append("Shown but passed over:\n" + "\n".join(f"- {h}" for h in passed))
+    if NOTES_FILE.exists() and NOTES_FILE.read_text(encoding="utf-8").strip():
+        parts.append(NOTES_FILE.read_text(encoding="utf-8").strip())
+    return "\n\n".join(parts)
+
+
+def skim(client, model, listing, rubric):
+    message = client.messages.create(
+        model=model,
+        max_tokens=2000,
+        system=FILTER_PROMPT.format(rubric=rubric, k=KEEP_PER_CHUNK),
+        messages=[{"role": "user", "content": listing}],
+    )
+    text = reply_text(message)
+    if not text.strip():
+        raise RuntimeError(f"empty reply (stop reason: {message.stop_reason})")
+    ids = json_from(text, "keep").get("keep", [])
+    return [int(i) for i in ids if str(i).strip().isdigit()]  # accept "12" as well as 12
+
+
 def first_pass(client, stories, rubric, notes):
     """Haiku skims every headline in batches and keeps the possibles."""
     if len(stories) <= SKIM_ABOVE:
@@ -170,17 +205,16 @@ def first_pass(client, stories, rubric, notes):
         chunk = stories[start : start + CHUNK_SIZE]
         listing = "\n".join(f"[{i}] {s['title']} | {s['source']} | {s['summary'][:150]}" for i, s in enumerate(chunk))
         try:
-            message = client.messages.create(
-                model=model,
-                max_tokens=600,
-                system=FILTER_PROMPT.format(rubric=rubric, k=KEEP_PER_CHUNK),
-                messages=[{"role": "user", "content": listing}],
-            )
-            ids = json_from(reply_text(message), "keep").get("keep", [])
-            kept += [chunk[i] for i in ids[:KEEP_PER_CHUNK] if isinstance(i, int) and 0 <= i < len(chunk)]
-        except Exception as error:
-            failures += 1
-            notes.append(f"First pass failed on one batch: {str(error)[:200]}")
+            ids = skim(client, model, listing, rubric)
+        except Exception as cheap_error:
+            try:  # the cheap model failed; let Sonnet skim this batch instead
+                ids = skim(client, setting("CLAUDE_MODEL", "claude-sonnet-5-5"), listing, rubric)
+                notes.append(f"Cheap first pass failed ({str(cheap_error)[:120]}), so Sonnet skimmed a batch instead.")
+            except Exception as error:
+                failures += 1
+                notes.append(f"First pass failed on one batch: {str(error)[:200]}")
+                continue
+        kept += [chunk[i] for i in ids[:KEEP_PER_CHUNK] if 0 <= i < len(chunk)]
     if not kept and failures:
         notes.append(f"First pass failed, so the newest {SKIM_ABOVE} stories went straight to the final pick.")
         return stories[:SKIM_ABOVE]
@@ -191,6 +225,7 @@ def web_search(client, rubric, seen, notes):
     """Claude searches the web for stories the feeds missed. Switched off if config/search.md has no brief."""
     path = CONFIG / "search.md"
     if not path.exists():
+        notes.append("Web search is off: config/search.md is missing.")
         return []
     text = path.read_text(encoding="utf-8")
     count = re.search(r"^Searches:\s*(\d+)", text, re.M)
@@ -239,6 +274,8 @@ def web_search(client, rubric, seen, notes):
                 "web": True,
             }
         )
+    if not stories:
+        notes.append(f"Web search returned {len(found)} stories, none of them new.")
     return stories
 
 
@@ -279,7 +316,9 @@ def telegram_text(shortlist, stats, failed, notes):
         f"<b>Shortlist of {len(shortlist)}</b> for {nice_date(issue_day)}",
         "Reply with the numbers you want, in order, for example <code>3 1 7 4 9</code>\n"
         "A preview of the email follows within about 15 minutes. You can edit it until about 5 a.m.\n"
-        "Reply <code>skip</code> to send nothing.",
+        + (f"No reply means the top {auto_pick_count()} go out at 8 a.m. " if auto_pick_count() else "No reply means nothing is sent. ")
+        + "Reply <code>skip</code> to send nothing.\n"
+        "Send <code>note: …</code> any time to steer future shortlists.",
     ]
     for number, item in enumerate(shortlist, start=1):
         paywall = " (paywall)" if item["paywall"] else ""
@@ -297,13 +336,29 @@ def telegram_text(shortlist, stats, failed, notes):
     return "\n\n".join(lines)
 
 
+def already_made_by_hand():
+    """True on a timed run when a shortlist for the same issue already exists, for example one you ran by hand."""
+    if setting("GITHUB_EVENT_NAME") != "schedule":
+        return False
+    existing = load_json(SHORTLIST_FILE, None)
+    if not existing:
+        return False
+    london = ZoneInfo("Europe/London")
+    made = datetime.fromtimestamp(existing["created"], london)
+    return issue_day(made) == issue_day(datetime.now(london))
+
+
 def main():
+    if already_made_by_hand():
+        print("A shortlist for this issue already exists, so the timed run is skipping.")
+        return
+
     # Clear old messages so the evening draft job only sees tonight's reply.
     tg_clear(tg_updates())
     # A new shortlist starts a fresh email: drop any earlier one, so it cannot be sent by mistake.
     (DATA / "issue.md").unlink(missing_ok=True)
 
-    rubric = (CONFIG / "rubric.md").read_text(encoding="utf-8")
+    rubric = (CONFIG / "rubric.md").read_text(encoding="utf-8") + "\n\n" + taste_text()
     seen = {item["url"] for item in load_json(HISTORY_FILE, [])}
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
     notes = []

@@ -7,7 +7,6 @@ MODE setting (a GitHub variable):
 """
 
 import re
-import time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -26,13 +25,22 @@ from common import (
     setting,
     tg_send,
 )
-from issue import load_issue, preview_of, process_messages, save_issue, subject_of
+from issue import (
+    auto_pick_count,
+    load_issue,
+    new_issue,
+    preview_of,
+    process_messages,
+    record_taste,
+    save_issue,
+    shortlist_day,
+    subject_of,
+)
 
 LONDON = ZoneInfo("Europe/London")
 MARKER = "<!-- NEW DAYS GO BELOW THIS LINE -->"
 KIT_URL = "https://api.kit.com/v4/broadcasts"
 HISTORY_DAYS = 30
-SHORTLIST_MAX_AGE = 14 * 3600  # seconds
 
 
 def send_time():
@@ -130,17 +138,26 @@ def main():
     if mode not in {"draft", "tester", "live"}:
         raise RuntimeError(f"MODE must be draft, tester or live, not '{mode}'.")
 
-    # Pick up any edits sent on Telegram after the last evening draft run.
-    shortlist = load_json(SHORTLIST_FILE, None)
-    if shortlist and time.time() - shortlist["created"] <= SHORTLIST_MAX_AGE:
-        process_messages(shortlist)
-
     when = send_time()
-    # A test run in the afternoon finds the issue prepared for tomorrow and sends it now.
-    issue = load_issue(when.date()) or load_issue(when.date() + timedelta(days=1))
+    # Today's email, or tomorrow's if this is a test run in the afternoon.
+    days = [when.date(), when.date() + timedelta(days=1)]
+    shortlist = load_json(SHORTLIST_FILE, None)
+    current = shortlist if shortlist and shortlist_day(shortlist) in days else None
+
+    # Pick up any edits or notes sent on Telegram after the last evening draft run.
+    if current:
+        process_messages(current)
+
+    issue = load_issue(days[0]) or load_issue(days[1])
+    auto = False
     if issue is None:
-        tg_send("No email was prepared for today, so nothing was sent.")
-        return
+        count = auto_pick_count()
+        if not current or not current["items"] or count == 0:
+            tg_send("No email was prepared for today, so nothing was sent.")
+            return
+        top = [{k: i[k] for k in ("headline", "url", "source")} for i in current["items"][:count]]
+        issue, auto = new_issue(top, when.date()), True
+
     if issue["status"] == "skip":
         tg_send("Today was skipped. Nothing was sent.")
         return
@@ -157,13 +174,16 @@ def main():
         update_history(issue["items"], when.date())
         issue["status"] = "sent"
         save_issue(issue)
+        if current and not auto:
+            record_taste(current, issue, when.date())
 
     status = {
         "draft": "saved as a draft in Kit. Nothing will send.",
         "tester": f"scheduled for {nice_time(when)} to tester-tagged subscribers only.",
         "live": f"scheduled for {nice_time(when)} to all subscribers.",
     }[mode]
-    tg_send(f"Done: {len(issue['items'])} stories {status}\nSubject: {esc(subject_of(issue))}")
+    lead = "No picks came in, so I chose the top ones from the shortlist.\n" if auto else ""
+    tg_send(f"{lead}Done: {len(issue['items'])} stories {status}\nSubject: {esc(subject_of(issue))}")
 
 
 if __name__ == "__main__":

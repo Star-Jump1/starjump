@@ -10,15 +10,18 @@ Telegram messages, after the evening shortlist:
   preview: …                sets the preview text (blank uses the next two headlines)
   intro: …                  adds a line above the stories
   skip / send               cancels tomorrow's email / undoes a skip
+  note: …                   steers future shortlists, for example "note: more space stories"
 """
 
 import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from common import DATA, esc, nice_date, setting, source_for, tg_clear, tg_updates
+from common import CONFIG, DATA, bare_url, esc, load_json, nice_date, save_json, setting, source_for, tg_clear, tg_updates
 
 ISSUE_FILE = DATA / "issue.md"
+NOTES_FILE = DATA / "notes.md"     # your "note:" messages, read by the evening shortlist
+TASTE_FILE = DATA / "taste.json"   # what you picked and passed over, read by the evening shortlist
 LONDON = ZoneInfo("Europe/London")
 
 STORY_LINE = re.compile(r"^\s*(?:\d+[.)]|[-*])\s*\[(.+)\]\((\S+)\)\s*(?:\|\s*(.*?))?\s*$")
@@ -38,6 +41,41 @@ def issue_day(now=None):
     """The date of the next send: tomorrow if it is after midday, otherwise today."""
     now = now or datetime.now(LONDON)
     return (now + timedelta(days=1)).date() if now.hour >= 12 else now.date()
+
+
+def shortlist_day(shortlist):
+    """The send date a shortlist was made for."""
+    return issue_day(datetime.fromtimestamp(shortlist["created"], LONDON))
+
+
+def auto_pick_count():
+    """How many top stories to send if you don't reply. Set in config/settings.txt; 3 if missing."""
+    path = CONFIG / "settings.txt"
+    if not path.exists():
+        return 3
+    match = re.search(r"^Auto-pick:\s*(\d+)", path.read_text(encoding="utf-8"), re.M | re.I)
+    return int(match.group(1)) if match else 3
+
+
+def save_notes(notes):
+    today = nice_date(datetime.now(LONDON))
+    text = NOTES_FILE.read_text(encoding="utf-8") if NOTES_FILE.exists() else (
+        "# Editor's notes\n\nSent by Telegram. The shortlist follows these. Delete a line on GitHub to retire it.\n\n"
+    )
+    text += "".join(f"- {today}: {note}\n" for note in notes)
+    NOTES_FILE.write_text(text, encoding="utf-8")
+
+
+def record_taste(shortlist, issue, day):
+    """Remember what you picked and what you passed over, so future shortlists can learn your taste."""
+    picked_urls = {bare_url(i["url"]) for i in issue["items"]}
+    entry = {
+        "date": day.isoformat(),
+        "picked": [i["headline"] for i in issue["items"]],
+        "passed": [i["headline"] for i in shortlist["items"] if bare_url(i["url"]) not in picked_urls],
+    }
+    taste = [t for t in load_json(TASTE_FILE, []) if t["date"] != entry["date"]] + [entry]
+    save_json(TASTE_FILE, taste[-30:])
 
 
 def new_issue(items, day):
@@ -175,7 +213,7 @@ def apply_message(text, issue, shortlist, day):
 
 
 def process_messages(shortlist):
-    """Apply every new Telegram message from you to data/issue.md. Returns (issue, changed, ignored)."""
+    """Apply every new Telegram message from you to data/issue.md. Returns (issue, changed, ignored, notes)."""
     chat_id = int(setting("TELEGRAM_CHAT_ID", required=True))
     day = issue_day()
     updates = tg_updates()
@@ -187,16 +225,28 @@ def process_messages(shortlist):
         and u["message"].get("date", 0) >= shortlist["created"]
         and u["message"].get("text")
     ]
-    issue, changed, ignored = load_issue(day), False, []
+    issue, changed, ignored, noted = load_issue(day), False, [], []
     for text in texts:
-        updated, not_understood = apply_message(text, issue, shortlist["items"], day)
+        rest = []
+        for line in text.splitlines():
+            note = re.match(r"\s*note\s*:\s*(.+)$", line, re.I)
+            if note:
+                noted.append(note.group(1).strip())
+            else:
+                rest.append(line)
+        rest = "\n".join(rest).strip()
+        if not rest:
+            continue
+        updated, not_understood = apply_message(rest, issue, shortlist["items"], day)
         ignored += not_understood
         if updated is not None:
             issue, changed = updated, True
     if changed:
         save_issue(issue)
+    if noted:
+        save_notes(noted)
     tg_clear(updates)
-    return issue, changed, ignored
+    return issue, changed, ignored, noted
 
 
 def preview_message(issue, ignored=()):
@@ -223,7 +273,8 @@ def preview_message(issue, ignored=()):
     lines.append(
         "Edit by reply: <code>2: New headline</code>  <code>drop 3</code>  "
         "<code>add: Headline https://link</code>  <code>subject: …</code>  <code>preview: …</code>  "
-        "<code>intro: …</code>  <code>skip</code>\nNumbers alone start again from the shortlist."
+        "<code>intro: …</code>  <code>skip</code>\nNumbers alone start again from the shortlist.\n"
+        "<code>note: …</code> steers future shortlists, for example <code>note: more space stories</code>"
         + (f"\n<a href=\"https://github.com/{repo}/edit/main/data/issue.md\">Edit everything on GitHub</a>" if repo else "")
     )
     return "\n\n".join(lines)
