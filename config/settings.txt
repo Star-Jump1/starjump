@@ -1,0 +1,5 @@
+# Starjump settings
+
+# If you don't reply to the shortlist, the morning job sends this many of the top-ranked stories anyway.
+# Set to 0 to send nothing instead.
+Auto-pick: 3
