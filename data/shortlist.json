@@ -1,86 +1,78 @@
 {
-  "created": 1794511443,
-  "created_iso": "2026-11-12T19:24:03.663814+00:00",
+  "created": 1794748409,
+  "created_iso": "2026-11-15T13:13:29.818044+00:00",
   "items": [
     {
-      "headline": "European Euclid mission maps 900 million galaxies in first major data release",
-      "original": "European survey reveals 900m galaxies – and possibly secrets of ‘dark universe’",
-      "url": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
-      "source": "Guardian",
+      "headline": "SpaceX catches returning Starship in mechanical arms at Texas launch pad",
+      "original": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+      "url": "https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html",
+      "source": "phys.org",
       "paywall": false,
-      "why": "Concrete science result: largest 3D universe map, with data released."
+      "why": "Real first: Starship returned from orbit and was caught at its tower."
     },
     {
-      "headline": "London drone maker founded by Ukrainians hits £4.5bn value after £500m raise",
-      "original": "UK drone maker founded by Ukrainians hits £4.5bn value after raising £500m",
-      "url": "https://www.theguardian.com/business/2026/nov/12/uk-drone-maker-ukraine-value-uforce",
-      "source": "Guardian",
-      "paywall": false,
-      "why": "Completed British fundraising with named firm, figures and new investment."
-    },
-    {
-      "headline": "UK economy grows 0.7% in third quarter, fastest in over two years",
-      "original": "AI helps UK economy grow at fastest pace for more than two years",
-      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
-      "source": "Guardian",
-      "paywall": false,
-      "why": "Official growth figure, the strongest in two years."
-    },
-    {
-      "headline": "Toxic forever chemicals fall sharply in England's rivers after tighter restrictions",
-      "original": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
-      "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+      "headline": "Wales beat New Zealand for first time in 73 years",
+      "original": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
+      "url": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Measured decline in pollutants following restrictions on use."
+      "why": "Ended a 34-match losing streak against the All Blacks."
     },
     {
-      "headline": "Harry Kane becomes England's most capped men's footballer",
-      "original": "Harry Kane becomes England's most-capped men's footballer",
-      "url": "https://news.sky.com/story/harry-kane-becomes-englands-most-capped-mens-footballer-13611667",
-      "source": "Sky News",
+      "headline": "Four strike drones launched from HMS Queen Elizabeth in historic first test",
+      "original": "Historic launch sees 4 strike drones catapulted off British supercarrier",
+      "url": "https://newatlas.com/military/strike-drones-historic-launch-british-aircraft-carrier/",
+      "source": "newatlas.com",
       "paywall": false,
-      "why": "British sporting record achieved."
+      "why": "British military technology milestone, already achieved at sea."
     },
     {
-      "headline": "Burberry returns to profit as coat and handbag sales soar",
-      "original": "Burberry returns to profit as sales soar, from £85 socks to £9,000 coats",
-      "url": "https://www.theguardian.com/business/2026/nov/12/burberry-profit-sales-socks-bags-china-us",
+      "headline": "Astronomers explain how escaping gas made comet 220P/McNaught thousands of times brighter",
+      "original": "How escaping gases ripped apart a comet and caused it to become thousands of times brighter",
+      "url": "https://www.space.com/astronomy/comets/how-escaping-gases-ripped-apart-a-comet-and-caused-it-to-become-thousands-of-times-brighter",
+      "source": "space.com",
+      "paywall": false,
+      "why": "Concrete scientific explanation of an observed comet outburst."
+    },
+    {
+      "headline": "Digital bank customers can now deposit cash free at 30,000 locations",
+      "original": "Major digital bank rolls out free cash deposits at 30,000 locations",
+      "url": "https://www.birminghammail.co.uk/news/cost-of-living/major-digital-bank-rolls-out-34887858",
+      "source": "birminghammail.co.uk",
+      "paywall": false,
+      "why": "Rolled out now, with a clear number of locations."
+    },
+    {
+      "headline": "Royal Navy Trident submarine completes record seven month patrol",
+      "original": "Trident nuclear submarine concludes record underwater deployment",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
       "source": "Guardian",
       "paywall": false,
-      "why": "British firm's turnaround to profit, with sales up in China and US."
+      "why": "British record deployment completed, with a named vessel and duration."
     },
     {
-      "headline": "Mortgage arrears fall 10% in a year across the UK",
-      "original": "Mortgage arrears and repossessions fall across UK despite rising household costs",
-      "url": "https://www.independent.co.uk/news/uk/home-news/mortgages-home-repossessions-buy-to-let-b3084066.html",
-      "source": "Independent",
+      "headline": "ALMA telescope finds three young star cores at different stages",
+      "original": "ALMA reveals three star-forming cores at different stages inside one gas clump",
+      "url": "https://phys.org/news/2026-11-alma-reveals-star-cores-stages.html",
+      "source": "phys.org",
       "paywall": false,
-      "why": "Numbers show arrears and repossessions falling."
+      "why": "Astronomical discovery with specific named region and findings."
     },
     {
-      "headline": "In Sweden, a wooden datacentre runs entirely on renewable power",
-      "original": "Datacentres are deeply unpopular. Has Sweden made one we can all love?",
-      "url": "https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun",
-      "source": "Guardian",
+      "headline": "Saddleworth baker named Wedding Cake Artist of the Year",
+      "original": "A 'lightbulb moment' on holiday that started Saddleworth cake-maker's 'dream' journey",
+      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/lightbulb-moment-holiday-started-saddleworth-34909757",
+      "source": "manchestereveningnews.co.uk",
       "paywall": false,
-      "why": "Built and operating facility using fully renewable power."
+      "why": "British small business winning a national award."
     },
     {
-      "headline": "Device from Nottingham researchers helps calm Tourette's symptoms",
-      "original": "Trying Tourette's device was the best day of my life",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3g3e5q4zxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
+      "headline": "Spa Valley Railway named Large Business of the Year in Tunbridge Wells",
+      "original": "Awards for Kent Heritage Railway",
+      "url": "https://www.railadvent.co.uk/2026/11/awards-for-kent-heritage-railway.html",
+      "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "British-developed medical device already helping patients."
-    },
-    {
-      "headline": "Bronze leg found in Scottish bog rewrites story of Roman occupation",
-      "original": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
-      "source": "Guardian",
-      "paywall": false,
-      "why": "Real archaeological discovery now on show in Edinburgh."
+      "why": "British heritage railway business recognised with a named award."
     }
   ]
 }
