@@ -1,34 +1,98 @@
 # One feed address per line. Lines starting with # are ignored.
 # The evening Telegram message lists any feed that failed; delete or fix those here.
+# Claude also searches the web each evening (see config/search.md), so not everything needs a feed.
 
-# BBC
+# ---------- British news ----------
 https://feeds.bbci.co.uk/news/uk/rss.xml
 https://feeds.bbci.co.uk/news/business/rss.xml
 https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
 https://feeds.bbci.co.uk/news/technology/rss.xml
 https://feeds.bbci.co.uk/news/health/rss.xml
-
-# Sky News
+https://feeds.bbci.co.uk/news/world/rss.xml
 https://feeds.skynews.com/feeds/rss/uk.xml
 https://feeds.skynews.com/feeds/rss/business.xml
-
-# Guardian
+https://feeds.skynews.com/feeds/rss/technology.xml
 https://www.theguardian.com/uk-news/rss
 https://www.theguardian.com/uk/business/rss
 https://www.theguardian.com/science/rss
-
-# Business and free-market outlets
-https://www.cityam.com/feed/
-https://capx.co/feed/
-
-# Others
+https://www.theguardian.com/environment/rss
+https://www.theguardian.com/technology/rss
 https://inews.co.uk/feed
 https://www.independent.co.uk/news/uk/rss
-https://www.positive.news/feed/
-
-# Government announcements (high volume)
-https://www.gov.uk/search/news-and-communications.atom
-
-# Paywalled, kept for coverage; the rubric tells Claude to prefer free sources
 https://www.telegraph.co.uk/news/rss.xml
-https://www.spectator.co.uk/feed
+
+# ---------- British business, regional and startups ----------
+https://www.cityam.com/feed/
+https://capx.co/feed/
+https://www.business-live.co.uk/?service=rss
+https://www.manchestereveningnews.co.uk/news/?service=rss
+https://www.birminghammail.co.uk/news/?service=rss
+https://www.walesonline.co.uk/news/?service=rss
+https://www.chroniclelive.co.uk/news/?service=rss
+https://www.liverpoolecho.co.uk/news/?service=rss
+https://www.prolificnorth.co.uk/feed
+https://www.uktech.news/feed
+https://www.businesscloud.co.uk/feed/
+https://sifted.eu/feed
+https://tech.eu/feed/
+https://www.theregister.com/headlines.atom
+
+# ---------- Building, transport and energy ----------
+https://www.newcivilengineer.com/feed/
+https://www.constructionenquirer.com/feed/
+https://www.railadvent.co.uk/feed
+https://www.current-news.co.uk/feed
+https://www.carbonbrief.org/feed
+https://www.world-nuclear-news.org/rss
+https://www.offshorewind.biz/feed/
+https://www.pv-magazine.com/feed/
+https://cleantechnica.com/feed/
+https://electrek.co/feed/
+
+# ---------- Science and medicine ----------
+https://www.newscientist.com/feed/home/
+https://www.nature.com/nature.rss
+https://www.science.org/rss/news_current.xml
+https://www.sciencedaily.com/rss/top/science.xml
+https://www.sciencedaily.com/rss/top/health.xml
+https://www.sciencedaily.com/rss/top/technology.xml
+https://phys.org/rss-feed/
+https://medicalxpress.com/rss-feed/
+https://techxplore.com/rss-feed/
+https://theconversation.com/uk/articles.atom
+https://www.futurity.org/feed/
+https://scitechdaily.com/feed/
+https://www.statnews.com/feed/
+https://www.fiercebiotech.com/rss/xml
+https://www.cam.ac.uk/news/feed
+
+# ---------- Space ----------
+https://spacenews.com/feed/
+https://www.nasaspaceflight.com/feed/
+https://www.space.com/feeds/all
+
+# ---------- Technology ----------
+https://feeds.arstechnica.com/arstechnica/index
+https://www.technologyreview.com/feed/
+https://www.theverge.com/rss/index.xml
+https://techcrunch.com/feed/
+https://newatlas.com/index.rss
+https://hnrss.org/frontpage
+
+# ---------- Progress and good news ----------
+https://ourworldindata.org/atom.xml
+https://humanprogress.org/feed/
+https://rootsofprogress.org/feed.xml
+https://reasonstobecheerful.world/feed/
+https://www.goodnewsnetwork.org/feed/
+https://singularityhub.com/feed/
+https://bigthink.com/feed/
+https://www.freethink.com/feed
+
+# ---------- Bing News keyword searches (reach thousands of smaller sites) ----------
+https://www.bing.com/news/search?q=%22world+first%22&format=rss&mkt=en-GB
+https://www.bing.com/news/search?q=%22UK+first%22&format=rss&mkt=en-GB
+https://www.bing.com/news/search?q=breakthrough&format=rss&mkt=en-GB
+https://www.bing.com/news/search?q=%22record+high%22+Britain&format=rss&mkt=en-GB
+https://www.bing.com/news/search?q=%22planning+permission%22+approved&format=rss&mkt=en-GB
+https://www.bing.com/news/search?q=%22clinical+trial%22+results&format=rss&mkt=en-GB
