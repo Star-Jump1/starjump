@@ -1,78 +1,86 @@
 {
-  "created": 1794748409,
-  "created_iso": "2026-11-15T13:13:29.818044+00:00",
+  "created": 1794857214,
+  "created_iso": "2026-11-16T19:26:54.681773+00:00",
   "items": [
     {
-      "headline": "SpaceX catches returning Starship in mechanical arms at Texas launch pad",
-      "original": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
-      "url": "https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html",
-      "source": "phys.org",
+      "headline": "SpaceX catches returning Starship in its launch tower arms on first try",
+      "original": "SpaceX catches Starship on the first try",
+      "url": "https://www.theregister.com/science/2026/11/16/spacex-catches-starship-on-the-first-try/5310059",
+      "source": "theregister.com",
       "paywall": false,
-      "why": "Real first: Starship returned from orbit and was caught at its tower."
+      "why": "Concrete spaceflight first, like the editor's earlier pick"
     },
     {
-      "headline": "Wales beat New Zealand for first time in 73 years",
-      "original": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
-      "url": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss",
+      "headline": "Forever chemicals fall 30% in English rivers and 49% in fish",
+      "original": "30% Drop in Levels of Forever Chemicals in England’s Rivers, 49% in Fish – ‘Brilliant to See’",
+      "url": "https://www.goodnewsnetwork.org/30-drop-in-levels-of-forever-chemicals-in-englands-rivers-49-in-fish-brilliant-to-see/",
+      "source": "goodnewsnetwork.org",
+      "paywall": false,
+      "why": "British pollution falling, with clear numbers"
+    },
+    {
+      "headline": "NICE backs sponge on a string cancer test for NHS use",
+      "original": "Innovative ‘sponge on a string’ cancer test recommended for NHS roll-out",
+      "url": "https://www.independent.co.uk/news/uk/home-news/cancer-sponge-test-indigestion-oesophageal-symptoms-nhs-b3085612.html",
+      "source": "Independent",
+      "paywall": false,
+      "why": "British medical advance, cheaper and simpler testing in GP surgeries"
+    },
+    {
+      "headline": "US doctors complete world-first bone marrow transplant using deceased donor marrow",
+      "original": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
+      "url": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+      "source": "goodnewsnetwork.org",
+      "paywall": false,
+      "why": "Medical first with a named result in a patient"
+    },
+    {
+      "headline": "Gas starts flowing from Jackdaw field in the North Sea",
+      "original": "Gas starts flowing from Jackdaw after government green light",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Ended a 34-match losing streak against the All Blacks."
+      "why": "British energy project built and producing"
     },
     {
-      "headline": "Four strike drones launched from HMS Queen Elizabeth in historic first test",
-      "original": "Historic launch sees 4 strike drones catapulted off British supercarrier",
-      "url": "https://newatlas.com/military/strike-drones-historic-launch-british-aircraft-carrier/",
-      "source": "newatlas.com",
+      "headline": "Chinese 19-seat electric airliner makes first crewed flight in Shandong",
+      "original": "China’s electric airliner era starts with a 19-seat plane and 400 km of range",
+      "url": "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/",
+      "source": "electrek.co",
       "paywall": false,
-      "why": "British military technology milestone, already achieved at sea."
+      "why": "Technology first that has actually happened"
     },
     {
-      "headline": "Astronomers explain how escaping gas made comet 220P/McNaught thousands of times brighter",
-      "original": "How escaping gases ripped apart a comet and caused it to become thousands of times brighter",
-      "url": "https://www.space.com/astronomy/comets/how-escaping-gases-ripped-apart-a-comet-and-caused-it-to-become-thousands-of-times-brighter",
-      "source": "space.com",
+      "headline": "Bladder cancer immunotherapy cuts risk of recurrence by 68% in trial",
+      "original": "STAT+: Bladder cancer immunotherapy from CG Oncology reduced risk of tumor recurrence",
+      "url": "https://www.statnews.com/2026/11/16/bladder-cancer-immunotherapy-reduced-tumor-recurrence-cg-oncology/?utm_campaign=rss",
+      "source": "statnews.com",
       "paywall": false,
-      "why": "Concrete scientific explanation of an observed comet outburst."
+      "why": "Trial result with a clear number"
     },
     {
-      "headline": "Digital bank customers can now deposit cash free at 30,000 locations",
-      "original": "Major digital bank rolls out free cash deposits at 30,000 locations",
-      "url": "https://www.birminghammail.co.uk/news/cost-of-living/major-digital-bank-rolls-out-34887858",
-      "source": "birminghammail.co.uk",
+      "headline": "Ten-man England beat world champions Spain 3-2 in Madrid",
+      "original": "England hang on to beat world champions Spain 3-2 in Madrid thriller",
+      "url": "https://news.sky.com/story/england-hang-on-to-beat-world-champions-spain-in-madrid-thriller-13612577",
+      "source": "Sky News",
       "paywall": false,
-      "why": "Rolled out now, with a clear number of locations."
+      "why": "British sporting win over the world champions"
     },
     {
-      "headline": "Royal Navy Trident submarine completes record seven month patrol",
-      "original": "Trident nuclear submarine concludes record underwater deployment",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
-      "source": "Guardian",
+      "headline": "Scientists publish first results from largest brain atlas ever created",
+      "original": "First results published from the largest brain atlas ever created",
+      "url": "https://medicalxpress.com/news/2026-11-results-published-largest-brain-atlas.html",
+      "source": "medicalxpress.com",
       "paywall": false,
-      "why": "British record deployment completed, with a named vessel and duration."
+      "why": "Major science result already published"
     },
     {
-      "headline": "ALMA telescope finds three young star cores at different stages",
-      "original": "ALMA reveals three star-forming cores at different stages inside one gas clump",
-      "url": "https://phys.org/news/2026-11-alma-reveals-star-cores-stages.html",
-      "source": "phys.org",
+      "headline": "Merseyside firm Applied Nutrition lifts profit 44% to £40.6m",
+      "original": "Applied Nutrition profit up amid weight-loss jab and GLP-1 supplement boom",
+      "url": "https://www.business-live.co.uk/retail-consumer/applied-nutrition-profit-up-amid-34916115",
+      "source": "business-live.co.uk",
       "paywall": false,
-      "why": "Astronomical discovery with specific named region and findings."
-    },
-    {
-      "headline": "Saddleworth baker named Wedding Cake Artist of the Year",
-      "original": "A 'lightbulb moment' on holiday that started Saddleworth cake-maker's 'dream' journey",
-      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/lightbulb-moment-holiday-started-saddleworth-34909757",
-      "source": "manchestereveningnews.co.uk",
-      "paywall": false,
-      "why": "British small business winning a national award."
-    },
-    {
-      "headline": "Spa Valley Railway named Large Business of the Year in Tunbridge Wells",
-      "original": "Awards for Kent Heritage Railway",
-      "url": "https://www.railadvent.co.uk/2026/11/awards-for-kent-heritage-railway.html",
-      "source": "railadvent.co.uk",
-      "paywall": false,
-      "why": "British heritage railway business recognised with a named award."
+      "why": "British business growth with concrete figures"
     }
   ]
 }
