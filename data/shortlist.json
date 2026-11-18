@@ -1,86 +1,86 @@
 {
-  "created": 1794943898,
-  "created_iso": "2026-11-17T19:31:38.571368+00:00",
+  "created": 1795030007,
+  "created_iso": "2026-11-18T19:26:47.820375+00:00",
   "items": [
     {
-      "headline": "Bangladesh's first nuclear reactor, Rooppur 1, supplies power to the grid",
-      "original": "Bangladesh's Rooppur 1 supplies country's first nuclear energy",
-      "url": "https://www.world-nuclear-news.org/articles/bangladeshs-rooppur-1-nuclear-supplies-countrys-first-nuclear-energy",
-      "source": "world-nuclear-news.org",
-      "paywall": false,
-      "why": "Reactor built and connected, first electricity delivered"
-    },
-    {
-      "headline": "London AI drug firm Isomorphic Labs raises $5bn in record tech round",
-      "original": "Isomorphic Labs raises $5bn in ‘one of UK tech’s biggest funding rounds’",
-      "url": "https://www.cityam.com/isomorphic-labs-raises-5bn-in-one-of-uk-techs-biggest-funding-rounds/",
-      "source": "City AM",
-      "paywall": false,
-      "why": "Huge private investment already closed, in a London firm"
-    },
-    {
-      "headline": "US approves new breast cancer pill combination for patients who stopped responding to hormone therapy",
-      "original": "New pill combo approved for breast cancer that stops responding to hormone therapy",
-      "url": "https://medicalxpress.com/news/2026-11-pill-combo-breast-cancer-hormone.html",
-      "source": "medicalxpress.com",
-      "paywall": false,
-      "why": "Approved treatment for advanced breast cancer"
-    },
-    {
-      "headline": "US approves treatment that helps children with type 1 diabetes keep making insulin",
-      "original": "FDA Approves Breakthrough Treatment That Helps Children With Type 1 Diabetes Keep Producing Insulin",
-      "url": "https://scitechdaily.com/fda-approves-breakthrough-treatment-that-helps-children-with-type-1-diabetes-keep-producing-insulin/",
-      "source": "scitechdaily.com",
-      "paywall": false,
-      "why": "Regulator approval of a concrete new medical treatment"
-    },
-    {
-      "headline": "British music industry hits record £8.4bn, with £4.8bn in exports",
-      "original": "UK music industry hits record high of £8.4bn – but are working musicians being left behind?",
-      "url": "https://www.theguardian.com/music/2026/nov/17/uk-music-industry-hits-record-high-of-84bn-this-is-music-report",
+      "headline": "Viagra-like pill slows Alzheimer's decline by almost a third in trial",
+      "original": "Pill that mimics Viagra can slow Alzheimer’s progression, study suggests",
+      "url": "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study",
       "source": "Guardian",
       "paywall": false,
-      "why": "Record revenue and export figures, with numbers"
+      "why": "Concrete trial result: cognitive decline slowed by nearly 30%."
     },
     {
-      "headline": "In China, electric lorries reach 49.8% of new heavy truck sales",
-      "original": "China’s Electric Heavy Trucks Are Taking Sales from Diesel and LNG",
-      "url": "https://cleantechnica.com/2026/11/17/china-electric-heavy-trucks-diesel-lng-freight-economics/",
-      "source": "cleantechnica.com",
+      "headline": "Antarctic blue whales up 1,000% since whaling ended, from 418 to 4,018",
+      "original": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
+      "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+      "source": "goodnewsnetwork.org",
       "paywall": false,
-      "why": "Clear clean-energy trend backed by a number"
+      "why": "Clear numbers showing a recovery since the ban."
     },
     {
-      "headline": "Bentley axle factory under construction in Stoke-on-Trent, creating 60 jobs",
-      "original": "New Bentley axle factory to create 60 jobs in the West Midlands",
-      "url": "https://www.birminghammail.co.uk/news/midlands-news/new-bentley-axle-factory-create-34922758",
-      "source": "birminghammail.co.uk",
+      "headline": "RAF Brize Norton's 3km runway replaced in just 16 weeks",
+      "original": "RAF, VolkerFitzpatrick and Aecom replace 3km Brize Norton runway in 16 weeks as part of £180M infrastructure project",
+      "url": "https://www.newcivilengineer.com/latest/raf-volkerfitzpatrick-and-aecom-replace-3km-brize-norton-runway-in-16-weeks-as-part-of-180m-infrastructure-project-18-11-2026/",
+      "source": "newcivilengineer.com",
       "paywall": false,
-      "why": "Construction started, jobs and place named"
+      "why": "British infrastructure actually built, fast, with a figure."
     },
     {
-      "headline": "Silvertown Homes seals £2.7bn deal for 5,000 homes in London's Royal Docks",
-      "original": "Silvertown Homes seals £2.7bn Royal Docks regeneration deal",
-      "url": "https://www.constructionenquirer.com/2026/11/17/silvertown-homes-seals-2-7bn-royal-docks-regeneration-deal/",
-      "source": "constructionenquirer.com",
+      "headline": "In Pakistan, home solar lifts the sun's share of power from 1% to 28%",
+      "original": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
       "paywall": false,
-      "why": "Deal signed for large-scale home building"
+      "why": "Large measured clean energy shift driven by households."
     },
     {
-      "headline": "Italy passes 1 million home and business battery storage systems",
-      "original": "Italy surpasses 1 million renewable-linked battery storage systems",
-      "url": "https://www.pv-magazine.com/2026/11/17/italy-surpasses-1-million-renewable-linked-battery-storage-systems/",
-      "source": "pv-magazine.com",
+      "headline": "US firm's leukaemia vaccine adds over nine months of survival in phase 3",
+      "original": "Sellas marks 9-month survival benefit in late-stage leukemia vaccine study",
+      "url": "https://www.fiercebiotech.com/biotech/sellas-marks-nine-month-survival-benefit-late-stage-leukemia-vaccine-study",
+      "source": "fiercebiotech.com",
       "paywall": false,
-      "why": "Concrete energy milestone with capacity figures"
+      "why": "Late-stage trial win with a concrete survival gain."
     },
     {
-      "headline": "FirstGroup revenues rise 21% and firm announces £50m share buyback",
-      "original": "FirstGroup revenues rise 21% as bus and London Overground drive half-year results",
-      "url": "https://www.business-live.co.uk/retail-consumer/firstgroup-revenues-rise-21-bus-34922396",
-      "source": "business-live.co.uk",
+      "headline": "Rocket Lab's Electron completes its 100th mission, the fastest to do so",
+      "original": "Rocket Lab’s Electron completes 100th mission, Neutron progresses toward debut mission",
+      "url": "https://www.nasaspaceflight.com/2026/11/rocket-lab-update-1126/",
+      "source": "nasaspaceflight.com",
       "paywall": false,
-      "why": "British firm growing, with numbers"
+      "why": "Record already achieved in launch technology."
+    },
+    {
+      "headline": "In Eritrea, trachoma, the top infectious cause of blindness, is eliminated",
+      "original": "Eritrea Eliminates Trachoma as a Public Health Problem",
+      "url": "https://humanprogress.org/eritrea-eliminates-trachoma-as-a-public-health-problem/",
+      "source": "humanprogress.org",
+      "paywall": false,
+      "why": "WHO-validated disease elimination, a concrete milestone."
+    },
+    {
+      "headline": "Permian Basin methane intensity fell as oil and gas output rose",
+      "original": "Permian Methane Intensity Fell as Production Rose",
+      "url": "https://humanprogress.org/permian-methane-intensity-fell-as-production-rose/",
+      "source": "humanprogress.org",
+      "paywall": false,
+      "why": "Emissions falling while production grows, backed by satellite data."
+    },
+    {
+      "headline": "British firm Foundational proves laser-reflecting space junk tech in orbit test",
+      "original": "Space is filling up with junk. Could laser-reflecting mirrors help humanity clean things up?",
+      "url": "https://www.space.com/space-exploration/satellites/space-is-filling-up-with-junk-could-laser-reflecting-mirrors-help-humanity-clean-things-up",
+      "source": "space.com",
+      "paywall": false,
+      "why": "British invention with a completed in-orbit demonstration."
+    },
+    {
+      "headline": "In Brazil's Amazonas state, malaria cases fall 29% to a ten-year low",
+      "original": "Amazonas Malaria Hits Jan–Oct Low Since 2016",
+      "url": "https://humanprogress.org/early-data-amazonas-malaria-hits-jan-oct-low-since-2016/",
+      "source": "humanprogress.org",
+      "paywall": false,
+      "why": "Disease falling with specific numbers."
     }
   ]
 }
