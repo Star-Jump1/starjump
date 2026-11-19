@@ -1,86 +1,86 @@
 {
-  "created": 1795030007,
-  "created_iso": "2026-11-18T19:26:47.820375+00:00",
+  "created": 1795116588,
+  "created_iso": "2026-11-19T19:29:48.267596+00:00",
   "items": [
     {
-      "headline": "Viagra-like pill slows Alzheimer's decline by almost a third in trial",
-      "original": "Pill that mimics Viagra can slow Alzheimer’s progression, study suggests",
-      "url": "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study",
-      "source": "Guardian",
+      "headline": "Alzheimer's jab cuts memory and thinking decline by 54% in major trial",
+      "original": "Alzheimer’s jab ‘halves rate of cognitive decline’ in major trial: ‘Very encouraging’",
+      "url": "https://www.independent.co.uk/news/uk/home-news/alzheimers-jab-uk-research-diranersen-symptoms-b3087779.html",
+      "source": "Independent",
       "paywall": false,
-      "why": "Concrete trial result: cognitive decline slowed by nearly 30%."
+      "why": "Concrete late-stage trial result for a major disease."
     },
     {
-      "headline": "Antarctic blue whales up 1,000% since whaling ended, from 418 to 4,018",
-      "original": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
-      "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
-      "source": "goodnewsnetwork.org",
+      "headline": "Two shorter 16-week tuberculosis treatments advance in clinical trial",
+      "original": "Two new 16-week tuberculosis regimens advance in clinical trial",
+      "url": "https://medicalxpress.com/news/2026-11-week-tuberculosis-regimens-advance-clinical.html",
+      "source": "medicalxpress.com",
       "paywall": false,
-      "why": "Clear numbers showing a recovery since the ban."
+      "why": "Trial progress against a leading infectious killer, with shorter treatment."
     },
     {
-      "headline": "RAF Brize Norton's 3km runway replaced in just 16 weeks",
-      "original": "RAF, VolkerFitzpatrick and Aecom replace 3km Brize Norton runway in 16 weeks as part of £180M infrastructure project",
-      "url": "https://www.newcivilengineer.com/latest/raf-volkerfitzpatrick-and-aecom-replace-3km-brize-norton-runway-in-16-weeks-as-part-of-180m-infrastructure-project-18-11-2026/",
-      "source": "newcivilengineer.com",
+      "headline": "Muir Mhòr 1GW floating wind farm approved in Scotland, enough for a million homes",
+      "original": "Scotland Greenlights 1 GW Floating Wind Farm",
+      "url": "https://www.offshorewind.biz/2026/11/19/scotland-greenlights-1-gw-floating-wind-farm",
+      "source": "offshorewind.biz",
       "paywall": false,
-      "why": "British infrastructure actually built, fast, with a figure."
+      "why": "British energy project consented, with concrete size and place."
     },
     {
-      "headline": "In Pakistan, home solar lifts the sun's share of power from 1% to 28%",
-      "original": "Pakistan's solar revolution is so successful the national grid is lagging behind",
-      "url": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+      "headline": "Birmingham brothers land 325-store Asda deal and double their staff",
+      "original": "Dragons Den-backed Birmingham brothers land 325-store Asda deal",
+      "url": "https://www.birminghammail.co.uk/news/midlands-news/dragons-den-backed-birmingham-brothers-34919609",
+      "source": "birminghammail.co.uk",
+      "paywall": false,
+      "why": "British family firm signs a real deal and grows jobs."
+    },
+    {
+      "headline": "Chinese team sets 23.9% world record for perovskite solar module efficiency",
+      "original": "MicroQuanta, Zhejiang University achieve world-record efficiency of 23.9% for 19.48 cm² perovskite solar module",
+      "url": "https://www.pv-magazine.com/2026/11/19/microquanta-achieves-world-record-efficiency-of-23-9-for-19-48-cm%c2%b2-perovskite-solar-module/",
+      "source": "pv-magazine.com",
+      "paywall": false,
+      "why": "Certified world record in solar technology."
+    },
+    {
+      "headline": "US approves pill for high blood pressure that resists other drugs",
+      "original": "New FDA-Approved Pill Lowers High Blood Pressure and May Slow Kidney Disease",
+      "url": "https://scitechdaily.com/new-fda-approved-pill-lowers-high-blood-pressure-and-may-slow-kidney-disease/",
+      "source": "scitechdaily.com",
+      "paywall": false,
+      "why": "Approval has happened, and it may protect the kidneys."
+    },
+    {
+      "headline": "Skanska completes earthquake bearing prototype for Rolls-Royce small nuclear reactor",
+      "original": "Prototype aseismic bearing completed for Rolls-Royce SMR",
+      "url": "https://www.world-nuclear-news.org/articles/prototype-aseismic-bearing-completed-for-rolls-royce-smr",
+      "source": "world-nuclear-news.org",
+      "paywall": false,
+      "why": "British nuclear build milestone completed, not just promised."
+    },
+    {
+      "headline": "British firm BAE builds portable radar that tracks aircraft without being detected",
+      "original": "New 'ghost radar' sees without being seen",
+      "url": "https://newatlas.com/military/bae-systems-ghost-passive-radar/",
+      "source": "newatlas.com",
+      "paywall": false,
+      "why": "British invention developed, with a concrete capability."
+    },
+    {
+      "headline": "Anthropic raises record $81bn in stock market debut",
+      "original": "Anthropic raises $81bn in record-breaking stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Large measured clean energy shift driven by households."
+      "why": "Record private investment round already completed."
     },
     {
-      "headline": "US firm's leukaemia vaccine adds over nine months of survival in phase 3",
-      "original": "Sellas marks 9-month survival benefit in late-stage leukemia vaccine study",
-      "url": "https://www.fiercebiotech.com/biotech/sellas-marks-nine-month-survival-benefit-late-stage-leukemia-vaccine-study",
-      "source": "fiercebiotech.com",
-      "paywall": false,
-      "why": "Late-stage trial win with a concrete survival gain."
-    },
-    {
-      "headline": "Rocket Lab's Electron completes its 100th mission, the fastest to do so",
-      "original": "Rocket Lab’s Electron completes 100th mission, Neutron progresses toward debut mission",
-      "url": "https://www.nasaspaceflight.com/2026/11/rocket-lab-update-1126/",
-      "source": "nasaspaceflight.com",
-      "paywall": false,
-      "why": "Record already achieved in launch technology."
-    },
-    {
-      "headline": "In Eritrea, trachoma, the top infectious cause of blindness, is eliminated",
-      "original": "Eritrea Eliminates Trachoma as a Public Health Problem",
-      "url": "https://humanprogress.org/eritrea-eliminates-trachoma-as-a-public-health-problem/",
+      "headline": "New data show water use can fall while economies keep growing",
+      "original": "New Data Suggest Water Use Can Decline Even as Economies Grow",
+      "url": "https://humanprogress.org/regional-water-use-may-peak-as-economies-grow/",
       "source": "humanprogress.org",
       "paywall": false,
-      "why": "WHO-validated disease elimination, a concrete milestone."
-    },
-    {
-      "headline": "Permian Basin methane intensity fell as oil and gas output rose",
-      "original": "Permian Methane Intensity Fell as Production Rose",
-      "url": "https://humanprogress.org/permian-methane-intensity-fell-as-production-rose/",
-      "source": "humanprogress.org",
-      "paywall": false,
-      "why": "Emissions falling while production grows, backed by satellite data."
-    },
-    {
-      "headline": "British firm Foundational proves laser-reflecting space junk tech in orbit test",
-      "original": "Space is filling up with junk. Could laser-reflecting mirrors help humanity clean things up?",
-      "url": "https://www.space.com/space-exploration/satellites/space-is-filling-up-with-junk-could-laser-reflecting-mirrors-help-humanity-clean-things-up",
-      "source": "space.com",
-      "paywall": false,
-      "why": "British invention with a completed in-orbit demonstration."
-    },
-    {
-      "headline": "In Brazil's Amazonas state, malaria cases fall 29% to a ten-year low",
-      "original": "Amazonas Malaria Hits Jan–Oct Low Since 2016",
-      "url": "https://humanprogress.org/early-data-amazonas-malaria-hits-jan-oct-low-since-2016/",
-      "source": "humanprogress.org",
-      "paywall": false,
-      "why": "Disease falling with specific numbers."
+      "why": "Trend backed by data on resources falling as output grows."
     }
   ]
 }
