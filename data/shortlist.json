@@ -1,86 +1,86 @@
 {
-  "created": 1795116588,
-  "created_iso": "2026-11-19T19:29:48.267596+00:00",
+  "created": 1795203021,
+  "created_iso": "2026-11-20T19:30:21.838260+00:00",
   "items": [
     {
-      "headline": "Alzheimer's jab cuts memory and thinking decline by 54% in major trial",
-      "original": "Alzheimer’s jab ‘halves rate of cognitive decline’ in major trial: ‘Very encouraging’",
-      "url": "https://www.independent.co.uk/news/uk/home-news/alzheimers-jab-uk-research-diranersen-symptoms-b3087779.html",
-      "source": "Independent",
+      "headline": "Pancreatic cancer pill leaves one in 12 patients with no detectable tumour",
+      "original": "Pill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "source": "Guardian",
       "paywall": false,
-      "why": "Concrete late-stage trial result for a major disease."
+      "why": "Trial result hailed as biggest pancreatic cancer advance in decades, from a free source"
     },
     {
-      "headline": "Two shorter 16-week tuberculosis treatments advance in clinical trial",
-      "original": "Two new 16-week tuberculosis regimens advance in clinical trial",
-      "url": "https://medicalxpress.com/news/2026-11-week-tuberculosis-regimens-advance-clinical.html",
-      "source": "medicalxpress.com",
+      "headline": "Low dose Alzheimer's drug cuts memory decline by 54% in trial",
+      "original": "Trial Finds Low-Dose Alzheimer’s Drug Slowed Decline",
+      "url": "https://humanprogress.org/trial-finds-low-dose-alzheimers-drug-slowed-decline/",
+      "source": "humanprogress.org",
       "paywall": false,
-      "why": "Trial progress against a leading infectious killer, with shorter treatment."
+      "why": "Concrete trial result with a number, in a major disease"
     },
     {
-      "headline": "Muir Mhòr 1GW floating wind farm approved in Scotland, enough for a million homes",
-      "original": "Scotland Greenlights 1 GW Floating Wind Farm",
-      "url": "https://www.offshorewind.biz/2026/11/19/scotland-greenlights-1-gw-floating-wind-farm",
-      "source": "offshorewind.biz",
-      "paywall": false,
-      "why": "British energy project consented, with concrete size and place."
-    },
-    {
-      "headline": "Birmingham brothers land 325-store Asda deal and double their staff",
-      "original": "Dragons Den-backed Birmingham brothers land 325-store Asda deal",
-      "url": "https://www.birminghammail.co.uk/news/midlands-news/dragons-den-backed-birmingham-brothers-34919609",
-      "source": "birminghammail.co.uk",
-      "paywall": false,
-      "why": "British family firm signs a real deal and grows jobs."
-    },
-    {
-      "headline": "Chinese team sets 23.9% world record for perovskite solar module efficiency",
-      "original": "MicroQuanta, Zhejiang University achieve world-record efficiency of 23.9% for 19.48 cm² perovskite solar module",
-      "url": "https://www.pv-magazine.com/2026/11/19/microquanta-achieves-world-record-efficiency-of-23-9-for-19-48-cm%c2%b2-perovskite-solar-module/",
+      "headline": "In China, world's first artificial cavern air energy store joins the grid",
+      "original": "China grid-connects world’s first artificial-cavern CAES plant",
+      "url": "https://www.pv-magazine.com/2026/11/20/china-grid-connects-worlds-first-artificial-cavern-caes-plant/",
       "source": "pv-magazine.com",
       "paywall": false,
-      "why": "Certified world record in solar technology."
+      "why": "A built and connected 300MW/1.8GWh energy storage first"
     },
     {
-      "headline": "US approves pill for high blood pressure that resists other drugs",
-      "original": "New FDA-Approved Pill Lowers High Blood Pressure and May Slow Kidney Disease",
-      "url": "https://scitechdaily.com/new-fda-approved-pill-lowers-high-blood-pressure-and-may-slow-kidney-disease/",
-      "source": "scitechdaily.com",
-      "paywall": false,
-      "why": "Approval has happened, and it may protect the kidneys."
-    },
-    {
-      "headline": "Skanska completes earthquake bearing prototype for Rolls-Royce small nuclear reactor",
-      "original": "Prototype aseismic bearing completed for Rolls-Royce SMR",
-      "url": "https://www.world-nuclear-news.org/articles/prototype-aseismic-bearing-completed-for-rolls-royce-smr",
-      "source": "world-nuclear-news.org",
-      "paywall": false,
-      "why": "British nuclear build milestone completed, not just promised."
-    },
-    {
-      "headline": "British firm BAE builds portable radar that tracks aircraft without being detected",
-      "original": "New 'ghost radar' sees without being seen",
-      "url": "https://newatlas.com/military/bae-systems-ghost-passive-radar/",
-      "source": "newatlas.com",
-      "paywall": false,
-      "why": "British invention developed, with a concrete capability."
-    },
-    {
-      "headline": "Anthropic raises record $81bn in stock market debut",
+      "headline": "Anthropic raises $81bn in record stock market debut",
       "original": "Anthropic raises $81bn in record-breaking stock market debut",
       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Record private investment round already completed."
+      "why": "Record private investment and listing, already completed"
     },
     {
-      "headline": "New data show water use can fall while economies keep growing",
-      "original": "New Data Suggest Water Use Can Decline Even as Economies Grow",
-      "url": "https://humanprogress.org/regional-water-use-may-peak-as-economies-grow/",
-      "source": "humanprogress.org",
+      "headline": "New Bristol Brabazon railway station opens ahead of first passengers",
+      "original": "New Bristol railway station officially opened ahead of welcoming passengers",
+      "url": "https://www.railadvent.co.uk/2026/11/transport-secretary-opens-bristol-brabazon-ahead-of-first-passenger-trains.html",
+      "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "Trend backed by data on resources falling as output grows."
+      "why": "British rail infrastructure built and officially opened"
+    },
+    {
+      "headline": "British digital bank OakNorth is first overseas bank to win US licence",
+      "original": "OakNorth becomes first overseas digital bank to secure US banking licence",
+      "url": "https://www.business-live.co.uk/professional-services/oaknorth-becomes-first-overseas-digital-34940046",
+      "source": "business-live.co.uk",
+      "paywall": false,
+      "why": "British firm achieves a real first and grows revenue"
+    },
+    {
+      "headline": "CERN finds first evidence of a particle decay sought for 40 years",
+      "original": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
+      "source": "sciencedaily.com",
+      "paywall": false,
+      "why": "Science discovery after four decades of searching"
+    },
+    {
+      "headline": "Around 150 turbines now installed at 3.6GW Dogger Bank wind farm",
+      "original": "Around 150 Turbines Installed at 3.6 GW Dogger Bank Wind Farm, Remediation Work Underway at Dogger Bank A",
+      "url": "https://www.offshorewind.biz/2026/11/20/around-150-turbines-installed-at-36-gw-dogger-bank-wind-farm-remediation-work-underway-at-dogger-bank-a",
+      "source": "offshorewind.biz",
+      "paywall": false,
+      "why": "British energy project under construction with firm numbers"
+    },
+    {
+      "headline": "Malaria vaccine prevents 87% of infections in early trial",
+      "original": "Malaria vaccine shows 87% efficacy in clinical trial",
+      "url": "https://medicalxpress.com/news/2026-11-malaria-vaccine-efficacy-clinical-trial.html",
+      "source": "medicalxpress.com",
+      "paywall": false,
+      "why": "Trial result with a clear efficacy number against a major killer"
+    },
+    {
+      "headline": "Renault's new electric Twingo starts at £14,745 in Britain",
+      "original": "Renault undercuts BYD with a new EV that costs less than $20,000",
+      "url": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
+      "source": "electrek.co",
+      "paywall": false,
+      "why": "Electric car getting cheaper, now on sale in the UK"
     }
   ]
 }
