@@ -1,86 +1,86 @@
 {
-  "created": 1795203021,
-  "created_iso": "2026-11-20T19:30:21.838260+00:00",
+  "created": 1795288703,
+  "created_iso": "2026-11-21T19:18:23.744616+00:00",
   "items": [
     {
-      "headline": "Pancreatic cancer pill leaves one in 12 patients with no detectable tumour",
-      "original": "Pill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "source": "Guardian",
+      "headline": "One-off CRISPR gene editing infusion cuts bad cholesterol 52% in first human trial",
+      "original": "First Human Trial to Slash Bad Cholesterol by 50% With One Injection of CRISPR Gene-Editing Therapy",
+      "url": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
+      "source": "goodnewsnetwork.org",
       "paywall": false,
-      "why": "Trial result hailed as biggest pancreatic cancer advance in decades, from a free source"
+      "why": "Trial result with numbers: effect held at 12 months, no side effects."
     },
     {
-      "headline": "Low dose Alzheimer's drug cuts memory decline by 54% in trial",
-      "original": "Trial Finds Low-Dose Alzheimer’s Drug Slowed Decline",
-      "url": "https://humanprogress.org/trial-finds-low-dose-alzheimers-drug-slowed-decline/",
-      "source": "humanprogress.org",
-      "paywall": false,
-      "why": "Concrete trial result with a number, in a major disease"
-    },
-    {
-      "headline": "In China, world's first artificial cavern air energy store joins the grid",
-      "original": "China grid-connects world’s first artificial-cavern CAES plant",
-      "url": "https://www.pv-magazine.com/2026/11/20/china-grid-connects-worlds-first-artificial-cavern-caes-plant/",
-      "source": "pv-magazine.com",
-      "paywall": false,
-      "why": "A built and connected 300MW/1.8GWh energy storage first"
-    },
-    {
-      "headline": "Anthropic raises $81bn in record stock market debut",
-      "original": "Anthropic raises $81bn in record-breaking stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "headline": "England beat New Zealand by a record margin in Nations Championship",
+      "original": "England run up record win over New Zealand in rugby union's Nations Championship",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "Record private investment and listing, already completed"
+      "why": "British sporting win with a record."
     },
     {
-      "headline": "New Bristol Brabazon railway station opens ahead of first passengers",
-      "original": "New Bristol railway station officially opened ahead of welcoming passengers",
-      "url": "https://www.railadvent.co.uk/2026/11/transport-secretary-opens-bristol-brabazon-ahead-of-first-passenger-trains.html",
-      "source": "railadvent.co.uk",
-      "paywall": false,
-      "why": "British rail infrastructure built and officially opened"
-    },
-    {
-      "headline": "British digital bank OakNorth is first overseas bank to win US licence",
-      "original": "OakNorth becomes first overseas digital bank to secure US banking licence",
-      "url": "https://www.business-live.co.uk/professional-services/oaknorth-becomes-first-overseas-digital-34940046",
-      "source": "business-live.co.uk",
-      "paywall": false,
-      "why": "British firm achieves a real first and grows revenue"
-    },
-    {
-      "headline": "CERN finds first evidence of a particle decay sought for 40 years",
-      "original": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
-      "source": "sciencedaily.com",
-      "paywall": false,
-      "why": "Science discovery after four decades of searching"
-    },
-    {
-      "headline": "Around 150 turbines now installed at 3.6GW Dogger Bank wind farm",
-      "original": "Around 150 Turbines Installed at 3.6 GW Dogger Bank Wind Farm, Remediation Work Underway at Dogger Bank A",
-      "url": "https://www.offshorewind.biz/2026/11/20/around-150-turbines-installed-at-36-gw-dogger-bank-wind-farm-remediation-work-underway-at-dogger-bank-a",
-      "source": "offshorewind.biz",
-      "paywall": false,
-      "why": "British energy project under construction with firm numbers"
-    },
-    {
-      "headline": "Malaria vaccine prevents 87% of infections in early trial",
-      "original": "Malaria vaccine shows 87% efficacy in clinical trial",
-      "url": "https://medicalxpress.com/news/2026-11-malaria-vaccine-efficacy-clinical-trial.html",
+      "headline": "Daraxonrasib with chemotherapy shrinks tumours in spread pancreatic cancer in trial",
+      "original": "Metastatic pancreatic cancer responds well to treatment with combination of daraxonrasib and chemotherapy",
+      "url": "https://medicalxpress.com/news/2026-11-metastatic-pancreatic-cancer-treatment-combination.html",
       "source": "medicalxpress.com",
       "paywall": false,
-      "why": "Trial result with a clear efficacy number against a major killer"
+      "why": "Concrete trial result for one of the deadliest cancers."
     },
     {
-      "headline": "Renault's new electric Twingo starts at £14,745 in Britain",
+      "headline": "St Andrews team helps sequence whale genome from breath captured by drone",
+      "original": "Breath of a Whale Captured by Drone Allows Full Genome Sequencing Without Intrusion",
+      "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+      "source": "goodnewsnetwork.org",
+      "paywall": false,
+      "why": "A first, with British researchers, and no harm to the whale."
+    },
+    {
+      "headline": "Grand Theft Auto VI sets record $3.79bn in first-day sales",
+      "original": "'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports",
+      "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-billion.html",
+      "source": "techxplore.com",
+      "paywall": false,
+      "why": "Record business result from a firm founded in Britain."
+    },
+    {
+      "headline": "Europe's Mercury-bound X-ray telescope returns first observations, working better than hoped",
+      "original": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+      "source": "sciencedaily.com",
+      "paywall": false,
+      "why": "Instrument launched and delivering results after eight years."
+    },
+    {
+      "headline": "Renault launches Twingo electric car from £14,745 in the UK",
       "original": "Renault undercuts BYD with a new EV that costs less than $20,000",
       "url": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
       "source": "electrek.co",
       "paywall": false,
-      "why": "Electric car getting cheaper, now on sale in the UK"
+      "why": "Cheaper electric car on sale now, with a UK price."
+    },
+    {
+      "headline": "US overdose deaths keep falling, to 65,724 in the year to June 2026",
+      "original": "Provisional US Overdose Deaths Keep Falling",
+      "url": "https://humanprogress.org/provisional-us-overdose-deaths-keep-falling/",
+      "source": "humanprogress.org",
+      "paywall": false,
+      "why": "Clear trend backed by CDC numbers."
+    },
+    {
+      "headline": "All 68 foundations installed at Germany's 980 MW Nordlicht I offshore wind farm",
+      "original": "DEME Wraps Up Foundation Installation at Germany’s Largest Offshore Wind Farm",
+      "url": "https://www.offshorewind.biz/2026/11/20/deme-wraps-up-foundation-installation-at-germanys-largest-offshore-wind-farm",
+      "source": "offshorewind.biz",
+      "paywall": false,
+      "why": "Large clean power project construction milestone completed."
+    },
+    {
+      "headline": "In New Jersey, new Portal North Bridge opens on America's busiest rail corridor",
+      "original": "New Amtrak bridge replaces 116-year-old swing bridge",
+      "url": "https://www.railadvent.co.uk/2026/11/new-amtrak-bridge-replaces-116-year-old-swing-bridge.html",
+      "source": "railadvent.co.uk",
+      "paywall": false,
+      "why": "Infrastructure built and open, replacing a 116-year-old bridge."
     }
   ]
 }
