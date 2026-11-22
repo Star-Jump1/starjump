@@ -1,5 +1,5 @@
 Issue: 22 November 2026
-Status: ready
+Status: sent
 Subject: 
 Preview: 
 Intro: 
