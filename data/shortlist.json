@@ -1,86 +1,86 @@
 {
-  "created": 1795288703,
-  "created_iso": "2026-11-21T19:18:23.744616+00:00",
+  "created": 1795375224,
+  "created_iso": "2026-11-22T19:20:24.570165+00:00",
   "items": [
     {
-      "headline": "One-off CRISPR gene editing infusion cuts bad cholesterol 52% in first human trial",
-      "original": "First Human Trial to Slash Bad Cholesterol by 50% With One Injection of CRISPR Gene-Editing Therapy",
-      "url": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
-      "source": "goodnewsnetwork.org",
+      "headline": "Two groups verify Claude helped prove a long-unsolved maths problem",
+      "original": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source": "Guardian",
       "paywall": false,
-      "why": "Trial result with numbers: effect held at 12 months, no side effects."
+      "why": "Independent verification of a major maths result"
     },
     {
-      "headline": "England beat New Zealand by a record margin in Nations Championship",
-      "original": "England run up record win over New Zealand in rugby union's Nations Championship",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+      "headline": "Drug baxdrostat reverses hormone-driven high blood pressure in patients, study finds",
+      "original": "‘Extraordinary’ Drug May Actually Cure High Blood Pressure Caused by Hormones, And it’s FDA-Approved",
+      "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
+      "source": "goodnewsnetwork.org",
+      "paywall": false,
+      "why": "Approved drug shows trial results against a root cause"
+    },
+    {
+      "headline": "Two spacecraft enter orbit around Mercury after eight-year journey",
+      "original": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
+      "url": "https://phys.org/news/2026-11-mercury-visitor-years-pair-spacecraft.html",
+      "source": "phys.org",
+      "paywall": false,
+      "why": "Completed space mission milestone"
+    },
+    {
+      "headline": "Merck cancer drug extends survival in phase 3 gastroesophageal trial",
+      "original": "Merck’s TROP2 ADC extends survival in pivotal gastroesophageal cancer trial",
+      "url": "https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial",
+      "source": "fiercebiotech.com",
+      "paywall": false,
+      "why": "Pivotal trial survival result"
+    },
+    {
+      "headline": "London AI drug firm Isomorphic Labs adds Merck as partner",
+      "original": "Isomorphic adds Merck to AI drug discovery roster days after $5B raise",
+      "url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-adds-merck-ai-drug-discovery-roster-days-after-5b-raise",
+      "source": "fiercebiotech.com",
+      "paywall": false,
+      "why": "British firm signs a deal with a major drugmaker"
+    },
+    {
+      "headline": "Dutch court bans BYD's Defender lookalike after Jaguar Land Rover case",
+      "original": "Court bans China’s BYD from selling ‘Defender clone’ SUV in EU",
+      "url": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu",
+      "source": "Guardian",
+      "paywall": false,
+      "why": "British firm wins a property rights case"
+    },
+    {
+      "headline": "Ford starts making its own LFP batteries at Michigan plant",
+      "original": "Ford Begins Producing Its Own LFP Batteries",
+      "url": "https://cleantechnica.com/2026/11/21/ford-begins-producing-its-own-lfp-batteries/",
+      "source": "cleantechnica.com",
+      "paywall": false,
+      "why": "Production has started, cheaper batteries for EVs"
+    },
+    {
+      "headline": "In China, electric cars hit record 68% of October sales",
+      "original": "EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October",
+      "url": "https://cleantechnica.com/2026/11/21/ev-share-jumps-to-68-and-small-bevs-rise-to-power-china-ev-sales-report-for-october/",
+      "source": "cleantechnica.com",
+      "paywall": false,
+      "why": "Record market share with a number"
+    },
+    {
+      "headline": "Rare moth builds self-sustaining population at Essex nature reserve",
+      "original": "Record-breaking sightings of rare moth in Essex",
+      "url": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "paywall": false,
-      "why": "British sporting win with a record."
+      "why": "British conservation result with record sightings"
     },
     {
-      "headline": "Daraxonrasib with chemotherapy shrinks tumours in spread pancreatic cancer in trial",
-      "original": "Metastatic pancreatic cancer responds well to treatment with combination of daraxonrasib and chemotherapy",
-      "url": "https://medicalxpress.com/news/2026-11-metastatic-pancreatic-cancer-treatment-combination.html",
-      "source": "medicalxpress.com",
-      "paywall": false,
-      "why": "Concrete trial result for one of the deadliest cancers."
-    },
-    {
-      "headline": "St Andrews team helps sequence whale genome from breath captured by drone",
-      "original": "Breath of a Whale Captured by Drone Allows Full Genome Sequencing Without Intrusion",
-      "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+      "headline": "New Orleans children's hospital opens museum fulfilling dying boy's wish",
+      "original": "The First Museum Built in a Children’s Hospital Fulfills Dying Boy’s Wish For Playtime During Chemo",
+      "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
       "source": "goodnewsnetwork.org",
       "paywall": false,
-      "why": "A first, with British researchers, and no harm to the whale."
-    },
-    {
-      "headline": "Grand Theft Auto VI sets record $3.79bn in first-day sales",
-      "original": "'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports",
-      "url": "https://techxplore.com/news/2026-11-grand-theft-auto-vi-billion.html",
-      "source": "techxplore.com",
-      "paywall": false,
-      "why": "Record business result from a firm founded in Britain."
-    },
-    {
-      "headline": "Europe's Mercury-bound X-ray telescope returns first observations, working better than hoped",
-      "original": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
-      "source": "sciencedaily.com",
-      "paywall": false,
-      "why": "Instrument launched and delivering results after eight years."
-    },
-    {
-      "headline": "Renault launches Twingo electric car from £14,745 in the UK",
-      "original": "Renault undercuts BYD with a new EV that costs less than $20,000",
-      "url": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
-      "source": "electrek.co",
-      "paywall": false,
-      "why": "Cheaper electric car on sale now, with a UK price."
-    },
-    {
-      "headline": "US overdose deaths keep falling, to 65,724 in the year to June 2026",
-      "original": "Provisional US Overdose Deaths Keep Falling",
-      "url": "https://humanprogress.org/provisional-us-overdose-deaths-keep-falling/",
-      "source": "humanprogress.org",
-      "paywall": false,
-      "why": "Clear trend backed by CDC numbers."
-    },
-    {
-      "headline": "All 68 foundations installed at Germany's 980 MW Nordlicht I offshore wind farm",
-      "original": "DEME Wraps Up Foundation Installation at Germany’s Largest Offshore Wind Farm",
-      "url": "https://www.offshorewind.biz/2026/11/20/deme-wraps-up-foundation-installation-at-germanys-largest-offshore-wind-farm",
-      "source": "offshorewind.biz",
-      "paywall": false,
-      "why": "Large clean power project construction milestone completed."
-    },
-    {
-      "headline": "In New Jersey, new Portal North Bridge opens on America's busiest rail corridor",
-      "original": "New Amtrak bridge replaces 116-year-old swing bridge",
-      "url": "https://www.railadvent.co.uk/2026/11/new-amtrak-bridge-replaces-116-year-old-swing-bridge.html",
-      "source": "railadvent.co.uk",
-      "paywall": false,
-      "why": "Infrastructure built and open, replacing a 116-year-old bridge."
+      "why": "Built, concrete human-interest story, one per day"
     }
   ]
 }
