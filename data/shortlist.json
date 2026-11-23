@@ -1,38 +1,46 @@
 {
-  "created": 1795375224,
-  "created_iso": "2026-11-22T19:20:24.570165+00:00",
+  "created": 1795462178,
+  "created_iso": "2026-11-23T19:29:38.661711+00:00",
   "items": [
     {
-      "headline": "Two groups verify Claude helped prove a long-unsolved maths problem",
-      "original": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "source": "Guardian",
-      "paywall": false,
-      "why": "Independent verification of a major maths result"
-    },
-    {
-      "headline": "Drug baxdrostat reverses hormone-driven high blood pressure in patients, study finds",
-      "original": "‘Extraordinary’ Drug May Actually Cure High Blood Pressure Caused by Hormones, And it’s FDA-Approved",
-      "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
-      "source": "goodnewsnetwork.org",
-      "paywall": false,
-      "why": "Approved drug shows trial results against a root cause"
-    },
-    {
-      "headline": "Two spacecraft enter orbit around Mercury after eight-year journey",
-      "original": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
-      "url": "https://phys.org/news/2026-11-mercury-visitor-years-pair-spacecraft.html",
-      "source": "phys.org",
-      "paywall": false,
-      "why": "Completed space mission milestone"
-    },
-    {
-      "headline": "Merck cancer drug extends survival in phase 3 gastroesophageal trial",
+      "headline": "US firm Merck's cancer drug extends survival in phase 3 gastroesophageal trial",
       "original": "Merck’s TROP2 ADC extends survival in pivotal gastroesophageal cancer trial",
       "url": "https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial",
       "source": "fiercebiotech.com",
       "paywall": false,
-      "why": "Pivotal trial survival result"
+      "why": "Pivotal trial result showing improved overall survival."
+    },
+    {
+      "headline": "SpaceX sets record, launching two rockets from one pad 32 hours apart",
+      "original": "SpaceX launches 2 rockets from same pad 32 hours apart, smashing turnaround record (video)",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+      "source": "space.com",
+      "paywall": false,
+      "why": "Concrete launch record, beating its own turnaround by 13 hours."
+    },
+    {
+      "headline": "NHS starts world's largest AI breast cancer screening trial, with 700,000 women",
+      "original": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
+      "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "paywall": false,
+      "why": "British trial now launched, world's largest, from a free source."
+    },
+    {
+      "headline": "South Korea's largest offshore wind farm now runs at full capacity",
+      "original": "South Korea’s Largest Offshore Wind Farm at Full Throttle",
+      "url": "https://www.offshorewind.biz/2026/11/23/south-koreas-largest-offshore-wind-farm-at-full-throttle",
+      "source": "offshorewind.biz",
+      "paywall": false,
+      "why": "364.8 MW of clean power supplying the grid."
+    },
+    {
+      "headline": "Drones lift 2,000 solar panels onto Bentley's Crewe roof in UK first",
+      "original": "'UK first': Cargo drones install more than 2,000 solar panels at Bentley HQ",
+      "url": "https://www.businessgreen.com/news/4539349/uk-cargo-drones-install-solar-panels-bentley-hq",
+      "source": "businessgreen.com",
+      "paywall": false,
+      "why": "British first, completed, with a named place and numbers."
     },
     {
       "headline": "London AI drug firm Isomorphic Labs adds Merck as partner",
@@ -40,47 +48,39 @@
       "url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-adds-merck-ai-drug-discovery-roster-days-after-5b-raise",
       "source": "fiercebiotech.com",
       "paywall": false,
-      "why": "British firm signs a deal with a major drugmaker"
+      "why": "British biotech deal signed, following its $5bn raise."
     },
     {
-      "headline": "Dutch court bans BYD's Defender lookalike after Jaguar Land Rover case",
-      "original": "Court bans China’s BYD from selling ‘Defender clone’ SUV in EU",
-      "url": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu",
-      "source": "Guardian",
+      "headline": "Voyager 1 becomes first spacecraft one light-day from Earth",
+      "original": "NASA’s Voyager 1 Just Made History One Light-Day From Earth",
+      "url": "https://scitechdaily.com/nasas-voyager-1-just-made-history-one-light-day-from-earth/",
+      "source": "scitechdaily.com",
       "paywall": false,
-      "why": "British firm wins a property rights case"
+      "why": "Real space milestone: 16.1 billion miles after 49 years."
     },
     {
-      "headline": "Ford starts making its own LFP batteries at Michigan plant",
-      "original": "Ford Begins Producing Its Own LFP Batteries",
-      "url": "https://cleantechnica.com/2026/11/21/ford-begins-producing-its-own-lfp-batteries/",
-      "source": "cleantechnica.com",
+      "headline": "US firm Boom Supersonic fires up engine core for Mach 1.7 airliner",
+      "original": "Concorde's heir fires up its engine core, but AI gets the first ride",
+      "url": "https://newatlas.com/aircraft/boom-supersonic-sprint-core-engine-test/",
+      "source": "newatlas.com",
       "paywall": false,
-      "why": "Production has started, cheaper batteries for EVs"
+      "why": "Working hardware milestone for supersonic flight."
     },
     {
-      "headline": "In China, electric cars hit record 68% of October sales",
-      "original": "EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October",
-      "url": "https://cleantechnica.com/2026/11/21/ev-share-jumps-to-68-and-small-bevs-rise-to-power-china-ev-sales-report-for-october/",
-      "source": "cleantechnica.com",
+      "headline": "Birkenhead's Borough Yard wins £36.5m contract, with up to 1,600 homes",
+      "original": "Birkenhead regeneration plan takes big step forward as £36.5m contract approved",
+      "url": "https://www.business-live.co.uk/commercial-property/birkenhead-regeneration-plan-takes-big-34944722",
+      "source": "business-live.co.uk",
       "paywall": false,
-      "why": "Record market share with a number"
+      "why": "Contract approved for British housebuilding and regeneration."
     },
     {
-      "headline": "Rare moth builds self-sustaining population at Essex nature reserve",
-      "original": "Record-breaking sightings of rare moth in Essex",
-      "url": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
+      "headline": "Derbyshire's Derwent Valley Line reopens after £3m upgrade",
+      "original": "Trains resume in Derbyshire after £3m project",
+      "url": "https://www.railadvent.co.uk/2026/11/3m-derwent-valley-line-upgrade-completed-to-deliver-smoother-more-reliable-journeys.html",
+      "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "British conservation result with record sightings"
-    },
-    {
-      "headline": "New Orleans children's hospital opens museum fulfilling dying boy's wish",
-      "original": "The First Museum Built in a Children’s Hospital Fulfills Dying Boy’s Wish For Playtime During Chemo",
-      "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
-      "source": "goodnewsnetwork.org",
-      "paywall": false,
-      "why": "Built, concrete human-interest story, one per day"
+      "why": "Completed British rail upgrade with services running again."
     }
   ]
 }
