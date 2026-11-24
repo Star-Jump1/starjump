@@ -1,86 +1,86 @@
 {
-  "created": 1795462178,
-  "created_iso": "2026-11-23T19:29:38.661711+00:00",
+  "created": 1795548563,
+  "created_iso": "2026-11-24T19:29:23.631255+00:00",
   "items": [
     {
-      "headline": "US firm Merck's cancer drug extends survival in phase 3 gastroesophageal trial",
-      "original": "Merck’s TROP2 ADC extends survival in pivotal gastroesophageal cancer trial",
-      "url": "https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial",
-      "source": "fiercebiotech.com",
+      "headline": "US approves first new head and neck cancer drug in seven years",
+      "original": "A new drug treatment for head and neck cancer",
+      "url": "https://medicalxpress.com/news/2026-11-drug-treatment-neck-cancer.html",
+      "source": "medicalxpress.com",
       "paywall": false,
-      "why": "Pivotal trial result showing improved overall survival."
+      "why": "Concrete regulatory approval of a new cancer treatment, a medical first."
     },
     {
-      "headline": "SpaceX sets record, launching two rockets from one pad 32 hours apart",
-      "original": "SpaceX launches 2 rockets from same pad 32 hours apart, smashing turnaround record (video)",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
-      "source": "space.com",
+      "headline": "In India, Kaiga nuclear unit restarts after record refurbishment outage",
+      "original": "Start-up milestones for Indian plants",
+      "url": "https://www.world-nuclear-news.org/articles/start-up-milestones-for-indian-plants",
+      "source": "world-nuclear-news.org",
       "paywall": false,
-      "why": "Concrete launch record, beating its own turnaround by 13 hours."
+      "why": "Nuclear progress that has happened: a restart and a regulator's criticality go-ahead."
     },
     {
-      "headline": "NHS starts world's largest AI breast cancer screening trial, with 700,000 women",
-      "original": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
-      "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
+      "headline": "Thousands of homes approved at Liverpool Waters in masterplan",
+      "original": "Thousands of homes to be built at Liverpool Waters as masterplan approved",
+      "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/thousands-homes-built-liverpool-waters-34960439",
+      "source": "liverpoolecho.co.uk",
       "paywall": false,
-      "why": "British trial now launched, world's largest, from a free source."
+      "why": "British homes approved, a concrete step toward building."
     },
     {
-      "headline": "South Korea's largest offshore wind farm now runs at full capacity",
-      "original": "South Korea’s Largest Offshore Wind Farm at Full Throttle",
-      "url": "https://www.offshorewind.biz/2026/11/23/south-koreas-largest-offshore-wind-farm-at-full-throttle",
-      "source": "offshorewind.biz",
+      "headline": "US approves first drug for limb-girdle muscular dystrophy",
+      "original": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
+      "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss",
+      "source": "statnews.com",
       "paywall": false,
-      "why": "364.8 MW of clean power supplying the grid."
+      "why": "First-ever approved treatment for a neglected disease."
     },
     {
-      "headline": "Drones lift 2,000 solar panels onto Bentley's Crewe roof in UK first",
-      "original": "'UK first': Cargo drones install more than 2,000 solar panels at Bentley HQ",
-      "url": "https://www.businessgreen.com/news/4539349/uk-cargo-drones-install-solar-panels-bentley-hq",
-      "source": "businessgreen.com",
+      "headline": "In Algeria, solar capacity passes 1 GW after 760 MW added this year",
+      "original": "Algeria’s solar capacity surpasses 1 GW",
+      "url": "https://www.pv-magazine.com/2026/11/24/algerias-solar-capacity-surpasses-1-gw/",
+      "source": "pv-magazine.com",
       "paywall": false,
-      "why": "British first, completed, with a named place and numbers."
+      "why": "Concrete clean energy built and commissioned, with numbers."
     },
     {
-      "headline": "London AI drug firm Isomorphic Labs adds Merck as partner",
-      "original": "Isomorphic adds Merck to AI drug discovery roster days after $5B raise",
-      "url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-adds-merck-ai-drug-discovery-roster-days-after-5b-raise",
-      "source": "fiercebiotech.com",
+      "headline": "Google buys King's Cross office building as it expands in London",
+      "original": "Google snaps up King’s Cross office as AI giants expand London footprint",
+      "url": "https://www.cityam.com/google-snaps-up-kings-cross-office-as-ai-giants-expand-london-footprint/",
+      "source": "City AM",
       "paywall": false,
-      "why": "British biotech deal signed, following its $5bn raise."
+      "why": "Large private investment in London, a deal agreed."
     },
     {
-      "headline": "Voyager 1 becomes first spacecraft one light-day from Earth",
-      "original": "NASA’s Voyager 1 Just Made History One Light-Day From Earth",
-      "url": "https://scitechdaily.com/nasas-voyager-1-just-made-history-one-light-day-from-earth/",
-      "source": "scitechdaily.com",
-      "paywall": false,
-      "why": "Real space milestone: 16.1 billion miles after 49 years."
-    },
-    {
-      "headline": "US firm Boom Supersonic fires up engine core for Mach 1.7 airliner",
-      "original": "Concorde's heir fires up its engine core, but AI gets the first ride",
-      "url": "https://newatlas.com/aircraft/boom-supersonic-sprint-core-engine-test/",
-      "source": "newatlas.com",
-      "paywall": false,
-      "why": "Working hardware milestone for supersonic flight."
-    },
-    {
-      "headline": "Birkenhead's Borough Yard wins £36.5m contract, with up to 1,600 homes",
-      "original": "Birkenhead regeneration plan takes big step forward as £36.5m contract approved",
-      "url": "https://www.business-live.co.uk/commercial-property/birkenhead-regeneration-plan-takes-big-34944722",
-      "source": "business-live.co.uk",
-      "paywall": false,
-      "why": "Contract approved for British housebuilding and regeneration."
-    },
-    {
-      "headline": "Derbyshire's Derwent Valley Line reopens after £3m upgrade",
-      "original": "Trains resume in Derbyshire after £3m project",
-      "url": "https://www.railadvent.co.uk/2026/11/3m-derwent-valley-line-upgrade-completed-to-deliver-smoother-more-reliable-journeys.html",
+      "headline": "Freight trains return to Nottingham site after four years",
+      "original": "Rail freight returns to Nottingham after more than four years",
+      "url": "https://www.railadvent.co.uk/2026/11/rail-freight-returns-to-nottingham-after-more-than-four-years.html",
       "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "Completed British rail upgrade with services running again."
+      "why": "British rail link restored and trains running again."
+    },
+    {
+      "headline": "China launches first international astronaut to Tiangong space station",
+      "original": "China launching 1st international astronaut to Tiangong space station today: Watch it live",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station",
+      "source": "space.com",
+      "paywall": false,
+      "why": "A real space first, happening today."
+    },
+    {
+      "headline": "Reckitt signs ten-year power deal for Dogger Bank B wind farm",
+      "original": "British Consumer Goods Company Signs 10-Year PPA for Dogger Bank B",
+      "url": "https://www.offshorewind.biz/2026/11/24/british-consumer-goods-company-signs-10-year-ppa-for-dogger-bank-b",
+      "source": "offshorewind.biz",
+      "paywall": false,
+      "why": "British firm signs a private clean power deal."
+    },
+    {
+      "headline": "GravityMax confirms Cardiff's biggest UK venue, creating 100 jobs",
+      "original": "Huge entertainment venue coming to the centre of Cardiff",
+      "url": "https://www.walesonline.co.uk/business/huge-entertainment-venue-coming-centre-34960646",
+      "source": "walesonline.co.uk",
+      "paywall": false,
+      "why": "Private investment in a Welsh city centre with a job number."
     }
   ]
 }
