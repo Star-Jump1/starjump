@@ -1,86 +1,86 @@
 {
-  "created": 1795548563,
-  "created_iso": "2026-11-24T19:29:23.631255+00:00",
+  "created": 1795634744,
+  "created_iso": "2026-11-25T19:25:44.071286+00:00",
   "items": [
     {
-      "headline": "US approves first new head and neck cancer drug in seven years",
-      "original": "A new drug treatment for head and neck cancer",
-      "url": "https://medicalxpress.com/news/2026-11-drug-treatment-neck-cancer.html",
+      "headline": "In Brazil, releasing Wolbachia mosquitoes slashes dengue in children, large trial confirms",
+      "original": "Release of mosquitoes infected with virus-fighting bacteria slashes dengue in children",
+      "url": "https://www.science.org/content/article/release-mosquitoes-infected-virus-fighting-bacteria-slashes-dengue-children",
+      "source": "science.org",
+      "paywall": false,
+      "why": "Large trial result with real disease reduction in children."
+    },
+    {
+      "headline": "Sibeprenlimab keeps kidney function nearly stable for two years in IgA nephropathy trial",
+      "original": "Sibeprenlimab preserves kidney function in IgA nephropathy, study finds",
+      "url": "https://medicalxpress.com/news/2026-11-sibeprenlimab-kidney-function-iga-nephropathy.html",
       "source": "medicalxpress.com",
       "paywall": false,
-      "why": "Concrete regulatory approval of a new cancer treatment, a medical first."
+      "why": "Trial outcome published in NEJM showing clear benefit over placebo."
     },
     {
-      "headline": "In India, Kaiga nuclear unit restarts after record refurbishment outage",
-      "original": "Start-up milestones for Indian plants",
-      "url": "https://www.world-nuclear-news.org/articles/start-up-milestones-for-indian-plants",
-      "source": "world-nuclear-news.org",
+      "headline": "World's largest electric dump trucks start work on Lower Thames Crossing",
+      "original": "World’s largest electric articulated dump trucks start work on LTC",
+      "url": "https://www.newcivilengineer.com/latest/worlds-largest-electric-articulated-dump-trucks-start-work-on-ltc-25-11-2026/",
+      "source": "newcivilengineer.com",
       "paywall": false,
-      "why": "Nuclear progress that has happened: a restart and a regulator's criticality go-ahead."
+      "why": "British construction under way using record-sized battery machines."
     },
     {
-      "headline": "Thousands of homes approved at Liverpool Waters in masterplan",
-      "original": "Thousands of homes to be built at Liverpool Waters as masterplan approved",
-      "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/thousands-homes-built-liverpool-waters-34960439",
-      "source": "liverpoolecho.co.uk",
+      "headline": "European probe Hera finds DART left a stadium-sized dent in Dimorphos",
+      "original": "Hera probe finds DART left a stadium-sized dent in asteroid Dimorphos",
+      "url": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
+      "source": "theregister.com",
       "paywall": false,
-      "why": "British homes approved, a concrete step toward building."
+      "why": "Concrete space science result from a completed mission."
     },
     {
-      "headline": "US approves first drug for limb-girdle muscular dystrophy",
-      "original": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
-      "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss",
-      "source": "statnews.com",
-      "paywall": false,
-      "why": "First-ever approved treatment for a neglected disease."
-    },
-    {
-      "headline": "In Algeria, solar capacity passes 1 GW after 760 MW added this year",
-      "original": "Algeria’s solar capacity surpasses 1 GW",
-      "url": "https://www.pv-magazine.com/2026/11/24/algerias-solar-capacity-surpasses-1-gw/",
+      "headline": "Australian and Chinese team hit 19.6% efficiency on large perovskite solar module",
+      "original": "UtmoLight, UNSW achieve 19.6% efficiency for 2.81 m² perovskite solar module",
+      "url": "https://www.pv-magazine.com/2026/11/25/utmolight-unsw-achieve-19-6-efficiency-for-2-81-m%c2%b2-perovskite-solar-module/",
       "source": "pv-magazine.com",
       "paywall": false,
-      "why": "Concrete clean energy built and commissioned, with numbers."
+      "why": "Independently tested record efficiency, a 15% gain."
     },
     {
-      "headline": "Google buys King's Cross office building as it expands in London",
-      "original": "Google snaps up King’s Cross office as AI giants expand London footprint",
-      "url": "https://www.cityam.com/google-snaps-up-kings-cross-office-as-ai-giants-expand-london-footprint/",
-      "source": "City AM",
+      "headline": "Liverpool Waters masterplan approved, opening the way for northern waterfront regeneration",
+      "original": "'Major milestone in the transformation of Liverpool's northern waterfront': Liverpool Waters masterplan approved",
+      "url": "https://www.business-live.co.uk/commercial-property/major-milestone-transformation-liverpools-northern-34960697",
+      "source": "business-live.co.uk",
       "paywall": false,
-      "why": "Large private investment in London, a deal agreed."
+      "why": "British regeneration approved, a big building project."
     },
     {
-      "headline": "Freight trains return to Nottingham site after four years",
+      "headline": "In Italy, 16 GWh of battery storage awarded at 12% lower price",
+      "original": "Italy awards 16 GWh of battery storage in second auction",
+      "url": "https://www.pv-magazine.com/2026/11/25/italy-awards-16-gwh-of-battery-storage-in-second-auction/",
+      "source": "pv-magazine.com",
+      "paywall": false,
+      "why": "Clean energy got cheaper, with numbers."
+    },
+    {
+      "headline": "Freight trains return to Nottingham after four years as rail link is restored",
       "original": "Rail freight returns to Nottingham after more than four years",
       "url": "https://www.railadvent.co.uk/2026/11/rail-freight-returns-to-nottingham-after-more-than-four-years.html",
       "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "British rail link restored and trains running again."
+      "why": "British rail connection rebuilt and running."
     },
     {
-      "headline": "China launches first international astronaut to Tiangong space station",
-      "original": "China launching 1st international astronaut to Tiangong space station today: Watch it live",
-      "url": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station",
-      "source": "space.com",
+      "headline": "Cornwall tungsten mine project lands £2m investment and well-paid jobs",
+      "original": "Cornwall tungsten mine project lands fresh £2m investment, creating 'high-paid' jobs",
+      "url": "https://www.business-live.co.uk/economic-development/cornwall-tungsten-mine-project-lands-34962507",
+      "source": "business-live.co.uk",
       "paywall": false,
-      "why": "A real space first, happening today."
+      "why": "British private investment creating jobs."
     },
     {
-      "headline": "Reckitt signs ten-year power deal for Dogger Bank B wind farm",
-      "original": "British Consumer Goods Company Signs 10-Year PPA for Dogger Bank B",
-      "url": "https://www.offshorewind.biz/2026/11/24/british-consumer-goods-company-signs-10-year-ppa-for-dogger-bank-b",
-      "source": "offshorewind.biz",
+      "headline": "Pets at Home half-year profit jumps 44% to £52.2m",
+      "original": "Pets at Home profit surges 44% as ex-Waitrose boss James Bailey leads turnaround",
+      "url": "https://www.business-live.co.uk/retail-consumer/pets-home-profit-surges-44-34962289",
+      "source": "business-live.co.uk",
       "paywall": false,
-      "why": "British firm signs a private clean power deal."
-    },
-    {
-      "headline": "GravityMax confirms Cardiff's biggest UK venue, creating 100 jobs",
-      "original": "Huge entertainment venue coming to the centre of Cardiff",
-      "url": "https://www.walesonline.co.uk/business/huge-entertainment-venue-coming-centre-34960646",
-      "source": "walesonline.co.uk",
-      "paywall": false,
-      "why": "Private investment in a Welsh city centre with a job number."
+      "why": "British firm growing, with a clear number."
     }
   ]
 }
