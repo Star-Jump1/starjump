@@ -1,86 +1,86 @@
 {
-  "created": 1795634744,
-  "created_iso": "2026-11-25T19:25:44.071286+00:00",
+  "created": 1795721456,
+  "created_iso": "2026-11-26T19:30:56.968851+00:00",
   "items": [
     {
-      "headline": "In Brazil, releasing Wolbachia mosquitoes slashes dengue in children, large trial confirms",
-      "original": "Release of mosquitoes infected with virus-fighting bacteria slashes dengue in children",
-      "url": "https://www.science.org/content/article/release-mosquitoes-infected-virus-fighting-bacteria-slashes-dengue-children",
-      "source": "science.org",
+      "headline": "US patient passes one year off dialysis with pig kidney transplant",
+      "original": "Pig Kidney Recipient Goes Over a Year Without Dialysis",
+      "url": "https://humanprogress.org/pig-kidney-recipient-goes-over-a-year-without-dialysis/",
+      "source": "humanprogress.org",
       "paywall": false,
-      "why": "Large trial result with real disease reduction in children."
+      "why": "A world first with a concrete result in transplant medicine."
     },
     {
-      "headline": "Sibeprenlimab keeps kidney function nearly stable for two years in IgA nephropathy trial",
-      "original": "Sibeprenlimab preserves kidney function in IgA nephropathy, study finds",
-      "url": "https://medicalxpress.com/news/2026-11-sibeprenlimab-kidney-function-iga-nephropathy.html",
-      "source": "medicalxpress.com",
+      "headline": "First generic HIV prevention jab lenacapavir arrives in Zambia",
+      "original": "World’s First Generic Lenacapavir Arrives in Zambia",
+      "url": "https://humanprogress.org/worlds-first-generic-lenacapavir-arrives-in-zambia/",
+      "source": "humanprogress.org",
       "paywall": false,
-      "why": "Trial outcome published in NEJM showing clear benefit over placebo."
+      "why": "Cheaper, near-100% effective HIV prevention has been delivered, not just promised."
     },
     {
-      "headline": "World's largest electric dump trucks start work on Lower Thames Crossing",
-      "original": "World’s largest electric articulated dump trucks start work on LTC",
-      "url": "https://www.newcivilengineer.com/latest/worlds-largest-electric-articulated-dump-trucks-start-work-on-ltc-25-11-2026/",
-      "source": "newcivilengineer.com",
+      "headline": "Britain reach Davis Cup semi-finals for first time since 2019",
+      "original": "GB win decider to reach Davis Cup semi-finals",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c5m2lvevrk1mo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
       "paywall": false,
-      "why": "British construction under way using record-sized battery machines."
+      "why": "A British sporting win, decided in a deciding doubles rubber."
     },
     {
-      "headline": "European probe Hera finds DART left a stadium-sized dent in Dimorphos",
-      "original": "Hera probe finds DART left a stadium-sized dent in asteroid Dimorphos",
-      "url": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
-      "source": "theregister.com",
+      "headline": "M5 Junction 10 rebuild contract signed, unlocking 20,000 homes",
+      "original": "Galliford Try seals £210m M5 junction rebuild deal",
+      "url": "https://www.constructionenquirer.com/2026/11/26/galliford-try-seals-210m-m5-junction-rebuild-deal/",
+      "source": "constructionenquirer.com",
       "paywall": false,
-      "why": "Concrete space science result from a completed mission."
+      "why": "A signed £210m deal for British infrastructure and homes."
     },
     {
-      "headline": "Australian and Chinese team hit 19.6% efficiency on large perovskite solar module",
-      "original": "UtmoLight, UNSW achieve 19.6% efficiency for 2.81 m² perovskite solar module",
-      "url": "https://www.pv-magazine.com/2026/11/25/utmolight-unsw-achieve-19-6-efficiency-for-2-81-m%c2%b2-perovskite-solar-module/",
-      "source": "pv-magazine.com",
+      "headline": "Global electricity access sees biggest gain since 2020, with 30 million connected",
+      "original": "Global Electricity Access Made Its Biggest Gain Since 2020",
+      "url": "https://humanprogress.org/global-electricity-access-made-its-biggest-gain-since-2020/",
+      "source": "humanprogress.org",
       "paywall": false,
-      "why": "Independently tested record efficiency, a 15% gain."
+      "why": "Progress backed by IEA numbers: 30 million more people have power."
     },
     {
-      "headline": "Liverpool Waters masterplan approved, opening the way for northern waterfront regeneration",
-      "original": "'Major milestone in the transformation of Liverpool's northern waterfront': Liverpool Waters masterplan approved",
-      "url": "https://www.business-live.co.uk/commercial-property/major-milestone-transformation-liverpools-northern-34960697",
+      "headline": "In China, Tianwan 8 nuclear unit completes hot tests and receives fuel",
+      "original": "Tianwan moves step closer to becoming world's biggest nuclear power plant",
+      "url": "https://www.world-nuclear-news.org/articles/Tianwan-moving-step-closer-becoming-worlds-biggest-nuclear-power-plant",
+      "source": "world-nuclear-news.org",
+      "paywall": false,
+      "why": "A nuclear reactor has reached a concrete milestone, with fuel delivered."
+    },
+    {
+      "headline": "Most distant quasar yet found, from 630 million years after Big Bang",
+      "original": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+      "url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html",
+      "source": "phys.org",
+      "paywall": false,
+      "why": "A record science discovery with a specific figure."
+    },
+    {
+      "headline": "Halfords raises profit forecast again as revenue climbs 7.1% to £953m",
+      "original": "Halfords raises profit forecast again as summer sales boost motoring retailer",
+      "url": "https://www.business-live.co.uk/retail-consumer/halfords-raises-profit-forecast-again-34967745",
       "source": "business-live.co.uk",
       "paywall": false,
-      "why": "British regeneration approved, a big building project."
+      "why": "A British firm is growing, with revenue and forecast figures."
     },
     {
-      "headline": "In Italy, 16 GWh of battery storage awarded at 12% lower price",
-      "original": "Italy awards 16 GWh of battery storage in second auction",
-      "url": "https://www.pv-magazine.com/2026/11/25/italy-awards-16-gwh-of-battery-storage-in-second-auction/",
-      "source": "pv-magazine.com",
-      "paywall": false,
-      "why": "Clean energy got cheaper, with numbers."
-    },
-    {
-      "headline": "Freight trains return to Nottingham after four years as rail link is restored",
-      "original": "Rail freight returns to Nottingham after more than four years",
-      "url": "https://www.railadvent.co.uk/2026/11/rail-freight-returns-to-nottingham-after-more-than-four-years.html",
+      "headline": "Work begins on step-free access at Flitwick station in Bedfordshire",
+      "original": "Work begins on Bedfordshire station to make it step-free",
+      "url": "https://www.railadvent.co.uk/2026/11/work-begins-on-bedfordshire-station-to-make-it-step-free.html",
       "source": "railadvent.co.uk",
       "paywall": false,
-      "why": "British rail connection rebuilt and running."
+      "why": "Construction has started on a British rail improvement."
     },
     {
-      "headline": "Cornwall tungsten mine project lands £2m investment and well-paid jobs",
-      "original": "Cornwall tungsten mine project lands fresh £2m investment, creating 'high-paid' jobs",
-      "url": "https://www.business-live.co.uk/economic-development/cornwall-tungsten-mine-project-lands-34962507",
-      "source": "business-live.co.uk",
+      "headline": "Ten-year-old's 999 call helps save South Shields neighbour in cardiac arrest",
+      "original": "'Extraordinary' 10-year-old helped save South Shields neighbour who had cardiac arrest",
+      "url": "https://www.chroniclelive.co.uk/news/north-east-news/extraordinary-10-year-old-helped-34968690",
+      "source": "chroniclelive.co.uk",
       "paywall": false,
-      "why": "British private investment creating jobs."
-    },
-    {
-      "headline": "Pets at Home half-year profit jumps 44% to £52.2m",
-      "original": "Pets at Home profit surges 44% as ex-Waitrose boss James Bailey leads turnaround",
-      "url": "https://www.business-live.co.uk/retail-consumer/pets-home-profit-surges-44-34962289",
-      "source": "business-live.co.uk",
-      "paywall": false,
-      "why": "British firm growing, with a clear number."
+      "why": "The one British human-interest rescue story for the day."
     }
   ]
 }
